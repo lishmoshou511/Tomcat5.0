@@ -145,10 +145,7 @@ public final class ClassLoaderFactory {
 	 *                 <code>null</code> for the system class loader.
 	 * @throws Exception if an error occurs constructing the class loader
 	 */
-	public static ClassLoader createClassLoader(File unpacked[],
-	                                            File packed[],
-	                                            ClassLoader parent)
-			throws Exception {
+	public static ClassLoader createClassLoader(File unpacked[], File packed[], ClassLoader parent) throws Exception {
 
 		if (debug >= 1)
 			log("Creating new class loader");
@@ -164,8 +161,7 @@ public final class ClassLoaderFactory {
 					continue;
 				if (debug >= 1)
 					log("  Including directory " + file.getAbsolutePath());
-				URL url = new URL("file", null,
-						file.getCanonicalPath() + File.separator);
+				URL url = new URL("file", null, file.getCanonicalPath() + File.separator);
 				list.add(url.toString());
 			}
 		}
