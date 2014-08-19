@@ -1,0 +1,94 @@
+2014-08-18 16:15:28 HttpConnector Opening server socket on all host IP addresses
+2014-08-18 16:15:28 HttpConnector[8080] Starting background thread
+2014-08-18 16:15:28 HttpProcessor[8080][0] Starting background thread
+2014-08-18 16:15:28 HttpProcessor[8080][1] Starting background thread
+2014-08-18 16:15:28 HttpProcessor[8080][2] Starting background thread
+2014-08-18 16:15:28 HttpProcessor[8080][3] Starting background thread
+2014-08-18 16:15:28 HttpProcessor[8080][4] Starting background thread
+2014-08-18 16:19:04 HttpConnector Opening server socket on all host IP addresses
+2014-08-18 16:19:04 HttpConnector httpConnector, io problem: 
+java.net.BindException: Address already in use: JVM_Bind:8080
+	at org.apache.catalina.connector.http.HttpConnector.open(HttpConnector.java:910)
+	at org.apache.catalina.connector.http.HttpConnector.initialize(HttpConnector.java:1115)
+	at org.apache.catalina.core.StandardService.initialize(StandardService.java:578)
+	at org.apache.catalina.core.StandardServer.initialize(StandardServer.java:2242)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:504)
+	at org.apache.catalina.startup.Catalina.execute(Catalina.java:395)
+	at org.apache.catalina.startup.Catalina.process(Catalina.java:175)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:132)
+
+2014-08-18 16:19:24 HttpConnector Opening server socket on all host IP addresses
+2014-08-18 16:19:24 HttpConnector httpConnector, io problem: 
+java.net.BindException: Address already in use: JVM_Bind:8080
+	at org.apache.catalina.connector.http.HttpConnector.open(HttpConnector.java:910)
+	at org.apache.catalina.connector.http.HttpConnector.initialize(HttpConnector.java:1115)
+	at org.apache.catalina.core.StandardService.initialize(StandardService.java:578)
+	at org.apache.catalina.core.StandardServer.initialize(StandardServer.java:2242)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:504)
+	at org.apache.catalina.startup.Catalina.execute(Catalina.java:395)
+	at org.apache.catalina.startup.Catalina.process(Catalina.java:175)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:132)
+
+2014-08-18 16:19:49 HttpConnector Opening server socket on all host IP addresses
+2014-08-18 16:20:40 HttpConnector[8080] Starting background thread
+2014-08-18 16:20:40 HttpProcessor[8080][0] Starting background thread
+2014-08-18 16:20:40 HttpProcessor[8080][1] Starting background thread
+2014-08-18 16:20:40 HttpProcessor[8080][2] Starting background thread
+2014-08-18 16:20:40 HttpProcessor[8080][3] Starting background thread
+2014-08-18 16:20:40 HttpProcessor[8080][4] Starting background thread
+2014-08-18 16:45:33 HttpConnector Opening server socket on all host IP addresses
+2014-08-18 16:45:33 HttpConnector[8080] Starting background thread
+2014-08-18 16:45:33 HttpProcessor[8080][0] Starting background thread
+2014-08-18 16:45:33 HttpProcessor[8080][1] Starting background thread
+2014-08-18 16:45:33 HttpProcessor[8080][2] Starting background thread
+2014-08-18 16:45:33 HttpProcessor[8080][3] Starting background thread
+2014-08-18 16:45:33 HttpProcessor[8080][4] Starting background thread
+2014-08-18 16:50:43 HttpConnector Opening server socket on all host IP addresses
+2014-08-18 16:50:43 HttpConnector[8080] Starting background thread
+2014-08-18 16:50:43 HttpProcessor[8080][0] Starting background thread
+2014-08-18 16:50:43 HttpProcessor[8080][1] Starting background thread
+2014-08-18 16:50:43 HttpProcessor[8080][2] Starting background thread
+2014-08-18 16:50:43 HttpProcessor[8080][3] Starting background thread
+2014-08-18 16:50:43 HttpProcessor[8080][4] Starting background thread
+2014-08-18 19:33:22 HttpConnector Opening server socket on all host IP addresses
+2014-08-18 19:33:22 HttpConnector[8080] Starting background thread
+2014-08-18 19:33:22 HttpProcessor[8080][0] Starting background thread
+2014-08-18 19:33:22 HttpProcessor[8080][1] Starting background thread
+2014-08-18 19:33:22 HttpProcessor[8080][2] Starting background thread
+2014-08-18 19:33:22 HttpProcessor[8080][3] Starting background thread
+2014-08-18 19:33:22 HttpProcessor[8080][4] Starting background thread
+2014-08-18 19:35:03 HttpConnector Opening server socket on all host IP addresses
+2014-08-18 19:35:03 HttpConnector[8080] Starting background thread
+2014-08-18 19:35:03 HttpProcessor[8080][0] Starting background thread
+2014-08-18 19:35:03 HttpProcessor[8080][1] Starting background thread
+2014-08-18 19:35:03 HttpProcessor[8080][2] Starting background thread
+2014-08-18 19:35:03 HttpProcessor[8080][3] Starting background thread
+2014-08-18 19:35:03 HttpProcessor[8080][4] Starting background thread
+2014-08-18 20:06:26 HttpConnector Opening server socket on all host IP addresses
+2014-08-18 20:06:26 HttpConnector[8080] Starting background thread
+2014-08-18 20:06:26 HttpProcessor[8080][0] Starting background thread
+2014-08-18 20:06:26 HttpProcessor[8080][1] Starting background thread
+2014-08-18 20:06:26 HttpProcessor[8080][2] Starting background thread
+2014-08-18 20:06:26 HttpProcessor[8080][3] Starting background thread
+2014-08-18 20:06:26 HttpProcessor[8080][4] Starting background thread
+2014-08-18 20:07:27 HttpProcessor[8080][4] Stopping background thread
+2014-08-18 20:07:27 HttpProcessor[8080][3] Stopping background thread
+2014-08-18 20:07:27 HttpProcessor[8080][2] Stopping background thread
+2014-08-18 20:07:27 HttpProcessor[8080][1] Stopping background thread
+2014-08-18 20:07:27 HttpProcessor[8080][0] Stopping background thread
+2014-08-18 20:07:27 HttpConnector[8080] Stopping background thread
+2014-08-18 20:37:43 HttpConnector Opening server socket on all host IP addresses
+2014-08-18 20:37:43 HttpConnector[8080] Starting background thread
+2014-08-18 20:37:45 HttpProcessor[8080][0] Starting background thread
+2014-08-18 20:37:45 HttpProcessor[8080][1] Starting background thread
+2014-08-18 20:37:45 HttpProcessor[8080][2] Starting background thread
+2014-08-18 20:37:45 HttpProcessor[8080][3] Starting background thread
+2014-08-18 20:37:45 HttpProcessor[8080][4] Starting background thread

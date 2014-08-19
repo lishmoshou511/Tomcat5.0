@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="472.0" y="225.0">org.apache.catalina.logger.FileLogger</node>
+    <node x="422.0" y="602.0">org.apache.catalina.Loader</node>
+    <node x="412.0" y="295.0">org.apache.catalina.core.StandardServer</node>
+    <node x="115.0" y="700.0">org.apache.catalina.loader.StandardClassLoader</node>
+    <node x="527.0" y="371.0">org.apache.catalina.connector.http.HttpConnector</node>
+    <node x="337.0" y="0.0">org.apache.catalina.Engine</node>
+    <node x="119.0" y="16.0">org.apache.catalina.Context</node>
+    <node x="398.0" y="371.0">org.apache.catalina.Lifecycle</node>
+    <node x="307.0" y="200.0">org.apache.catalina.core.StandardService</node>
+    <node x="138.0" y="121.0">org.apache.catalina.core.StandardContext</node>
+    <node x="80.0" y="344.0">org.apache.catalina.core.StandardWrapper</node>
+    <node x="223.0" y="471.0">org.apache.catalina.loader.WebappClassLoader</node>
+    <node x="468.0" y="441.0">org.apache.catalina.realm.MemoryRealm</node>
+    <node x="582.0" y="522.0">org.apache.catalina.Realm</node>
+    <node x="246.0" y="270.0">org.apache.catalina.core.ContainerBase</node>
+    <node x="0.0" y="191.0">org.apache.catalina.Host</node>
+    <node x="578.0" y="78.0">org.apache.catalina.logger.SystemErrLogger</node>
+    <node x="245.0" y="360.0">org.apache.catalina.connector.http.HttpProcessor</node>
+    <node x="303.0" y="111.0">org.apache.catalina.core.StandardEngine</node>
+    <node x="211.0" y="586.0">org.apache.catalina.loader.Reloader</node>
+    <node x="742.0" y="155.0">org.apache.catalina.Logger</node>
+    <node x="28.0" y="414.0">org.apache.catalina.Wrapper</node>
+    <node x="685.0" y="289.0">org.apache.catalina.logger.SystemOutLogger</node>
+    <node x="607.0" y="205.0">org.apache.catalina.logger.LoggerBase</node>
+    <node x="400.0" y="511.0">org.apache.catalina.loader.WebappLoader</node>
+    <node x="99.0" y="219.0">org.apache.catalina.core.StandardHost</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.catalina.core.StandardService" target="org.apache.catalina.Lifecycle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.catalina.connector.http.HttpProcessor" target="org.apache.catalina.Lifecycle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.catalina.core.StandardContext" target="org.apache.catalina.core.ContainerBase">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.catalina.realm.MemoryRealm" target="org.apache.catalina.Realm">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.catalina.realm.MemoryRealm" target="org.apache.catalina.Lifecycle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.catalina.core.StandardServer" target="org.apache.catalina.Lifecycle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.catalina.loader.WebappClassLoader" target="org.apache.catalina.loader.Reloader">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.catalina.logger.SystemOutLogger" target="org.apache.catalina.logger.LoggerBase">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.catalina.core.StandardWrapper" target="org.apache.catalina.core.ContainerBase">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.catalina.loader.StandardClassLoader" target="org.apache.catalina.loader.Reloader">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.catalina.core.StandardContext" target="org.apache.catalina.Context">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.catalina.core.StandardEngine" target="org.apache.catalina.core.ContainerBase">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.catalina.loader.WebappClassLoader" target="org.apache.catalina.Lifecycle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.catalina.logger.LoggerBase" target="org.apache.catalina.Logger">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.catalina.core.StandardWrapper" target="org.apache.catalina.Wrapper">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.catalina.logger.FileLogger" target="org.apache.catalina.Lifecycle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.catalina.core.StandardEngine" target="org.apache.catalina.Engine">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.catalina.core.StandardHost" target="org.apache.catalina.core.ContainerBase">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.catalina.loader.WebappLoader" target="org.apache.catalina.Lifecycle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.catalina.core.StandardHost" target="org.apache.catalina.Host">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.catalina.logger.SystemErrLogger" target="org.apache.catalina.logger.LoggerBase">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.catalina.connector.http.HttpConnector" target="org.apache.catalina.Lifecycle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.catalina.logger.FileLogger" target="org.apache.catalina.logger.LoggerBase">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.catalina.core.ContainerBase" target="org.apache.catalina.Lifecycle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.catalina.loader.WebappLoader" target="org.apache.catalina.Loader">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.228838451268358" x="407.0441112559756" y="23.64439374185136" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
