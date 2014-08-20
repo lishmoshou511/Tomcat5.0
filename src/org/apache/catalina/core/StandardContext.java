@@ -132,9 +132,7 @@ import org.apache.tomcat.util.log.SystemLogHandler;
  * @version $Revision: 1.112 $ $Date: 2002/09/09 14:39:37 $
  */
 
-public class StandardContext
-		extends ContainerBase
-		implements Context {
+public class StandardContext extends ContainerBase implements Context {
 
 
 	// ----------------------------------------------------------- Constructors

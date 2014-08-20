@@ -12,18 +12,24 @@ public class Test02 {
 		String path = System.getProperty("user.dir") + File.separator + "etc";
 		File file = new File(path, "employee2.xml");
 		Digester digester = new Digester();
-		// add rules
-		digester.addObjectCreate("employee", "ex15.pyrmont.digestertest.Employee");
+		//注意下面两句的区别。
+		//digester.addObjectCreate("employee", "ex15.pyrmont.digestertest.Employee","className");
+		digester.addObjectCreate("employee", "ex15.pyrmont.digestertest.Employee","className");
 		digester.addSetProperties("employee");
+
+
 		digester.addObjectCreate("employee/office", "ex15.pyrmont.digestertest.Office");
 		digester.addSetProperties("employee/office");
-		digester.addSetNext("employee/office", "addOffice");
+		digester.addSetNext("employee/office", "addOffice","ex15.pyrmont.digestertest.Office");
+
 		digester.addObjectCreate("employee/office/address",
 				"ex15.pyrmont.digestertest.Address");
 		digester.addSetProperties("employee/office/address");
-		digester.addSetNext("employee/office/address", "setAddress");
+		digester.addSetNext("employee/office/address", "setAddress","ex15.pyrmont.digestertest.Address");
 		try {
-			Employee employee = (Employee) digester.parse(file);
+			//这里跟随上面一起变。
+			//Employee employee = (Employee) digester.parse(file);
+			Employee2 employee = (Employee2) digester.parse(file);
 			ArrayList offices = employee.getOffices();
 			Iterator iterator = offices.iterator();
 			System.out.println("-------------------------------------------------");

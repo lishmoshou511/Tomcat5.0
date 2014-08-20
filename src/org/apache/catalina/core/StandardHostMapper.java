@@ -84,8 +84,7 @@ import org.apache.catalina.util.StringManager;
  * @version $Revision: 1.4 $ $Date: 2002/03/14 20:58:24 $
  */
 
-public class StandardHostMapper
-		implements Mapper {
+public class StandardHostMapper implements Mapper {
 
 
 	// ----------------------------------------------------- Instance Variables
@@ -133,8 +132,7 @@ public class StandardHostMapper
 	public void setContainer(Container container) {
 
 		if (!(container instanceof StandardHost))
-			throw new IllegalArgumentException
-					(sm.getString("httpHostMapper.container"));
+			throw new IllegalArgumentException(sm.getString("httpHostMapper.container"));
 		host = (StandardHost) container;
 
 	}

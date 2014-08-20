@@ -19,7 +19,7 @@ import java.util.Properties;
  * @version $Revision: 1.36 $ $Date: 2002/04/01 19:51:31 $
  */
 
-public final class Bootstrap {
+public final class Bootstrap extends Catalina {
 
 
 	// ------------------------------------------------------- Static Variables
@@ -95,8 +95,10 @@ public final class Bootstrap {
 			SecurityClassLoad.securityClassLoad(catalinaLoader);
 
 			// Instantiate a startup class instance
-			if (debug >= 1)
+			if (debug >= 1){
 				log("Loading startup class");
+			}
+
 			Class startupClass = catalinaLoader.loadClass("org.apache.catalina.startup.Catalina");
 			Object startupInstance = startupClass.newInstance();
 
@@ -108,8 +110,7 @@ public final class Bootstrap {
 			paramTypes[0] = Class.forName("java.lang.ClassLoader");
 			Object paramValues[] = new Object[1];
 			paramValues[0] = sharedLoader;
-			Method method =
-					startupInstance.getClass().getMethod(methodName, paramTypes);
+			Method method = startupInstance.getClass().getMethod(methodName, paramTypes);
 			method.invoke(startupInstance, paramValues);
 
 			// Call the process() method
@@ -120,8 +121,7 @@ public final class Bootstrap {
 			paramTypes[0] = args.getClass();
 			paramValues = new Object[1];
 			paramValues[0] = args;
-			method =
-					startupInstance.getClass().getMethod(methodName, paramTypes);
+			method = startupInstance.getClass().getMethod(methodName, paramTypes);
 			method.invoke(startupInstance, paramValues);
 
 		} catch (Exception e) {

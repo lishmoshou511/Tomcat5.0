@@ -66,6 +66,7 @@ public class MySwingAppWithShutdownHook extends JFrame {
 
 	private class MyShutdownHook extends Thread {
 		public void run() {
+			System.out.println("进入到关闭钩子中来。");
 			shutdown();
 		}
 	}

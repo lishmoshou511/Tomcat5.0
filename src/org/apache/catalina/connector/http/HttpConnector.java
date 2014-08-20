@@ -892,10 +892,7 @@ public final class HttpConnector implements Connector, Lifecycle, Runnable {
 	 * @throws KeyManagementException    problem in the key management
 	 *                                   layer (SSL only)
 	 */
-	private ServerSocket open()
-			throws IOException, KeyStoreException, NoSuchAlgorithmException,
-			CertificateException, UnrecoverableKeyException,
-			KeyManagementException {
+	private ServerSocket open() throws IOException, KeyStoreException, NoSuchAlgorithmException,CertificateException, UnrecoverableKeyException,KeyManagementException {
 
 		// Acquire the server socket factory for this Connector
 		ServerSocketFactory factory = getFactory();
@@ -1100,11 +1097,12 @@ public final class HttpConnector implements Connector, Lifecycle, Runnable {
 	/**
 	 * Initialize this connector (create ServerSocket here!)
 	 */
-	public void initialize()
-			throws LifecycleException {
-		if (initialized)
+	public void initialize() throws LifecycleException {
+		if (initialized){
 			throw new LifecycleException(
 					sm.getString("httpConnector.alreadyInitialized"));
+
+		}
 
 		this.initialized = true;
 		Exception eRethrow = null;

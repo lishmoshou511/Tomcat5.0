@@ -2149,13 +2149,14 @@ public final class StandardServer
 	public void start() throws LifecycleException {
 
 		// Validate and update our current component state
-		if (started)
-			throw new LifecycleException
-					(sm.getString("standardServer.start.started"));
+		if (started){
+			throw new LifecycleException (sm.getString("standardServer.start.started"));
+		}
+
 		// Notify our interested LifecycleListeners
 		lifecycle.fireLifecycleEvent(BEFORE_START_EVENT, null);
-
 		lifecycle.fireLifecycleEvent(START_EVENT, null);
+
 		started = true;
 
 		// Start our defined Services
@@ -2210,8 +2211,9 @@ public final class StandardServer
 	 * to bind to restricted ports under Unix operating environments.
 	 */
 	public void initialize() throws LifecycleException {
-		if (initialized)
+		if (initialized){
 			throw new LifecycleException(sm.getString("standardServer.initialize.initialized"));
+		}
 		initialized = true;
 
 		// Initialize our defined Services

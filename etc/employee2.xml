@@ -1,9 +1,12 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<employee firstName="Freddie" lastName="Mercury">
+<?xml version="1.0" encoding="UTF-8"?>
+<employee firstName="Freddie" lastName="Mercury" className="ex15.pyrmont.digestertest.Employee2">
 	<office description="Headquarters">
 		<address streetName="Wellington Avenue" streetNumber="223"/>
 	</office>
 	<office description="Client site">
 		<address streetName="Downing Street" streetNumber="10"/>
+		<address streetName="上海市闵行区" streetNumber="10"/>
+		<address streetName="上海市五角场" streetNumber="1011"/>
+		<address streetName="上海市大酷酷" streetNumber="1220"/>
 	</office>
 </employee>

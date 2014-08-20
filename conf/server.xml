@@ -14,10 +14,12 @@
 
 
 	<!-- Uncomment these entries to enable JMX MBeans support -->
-	<Listener className="org.apache.catalina.mbeans.ServerLifecycleListener"
-	          debug="0"/>
-	<Listener className="org.apache.catalina.mbeans.GlobalResourcesLifecycleListener"
-	          debug="0"/>
+	<Listener className="org.apache.catalina.mbeans.ServerLifecycleListener" debug="0"/>
+	<Listener className="org.apache.catalina.mbeans.GlobalResourcesLifecycleListener" debug="0"/>
+
+	<!--测试用的LifecycleListener-->
+	<!--<Listener className="org.apache.lish.LishLifecycleListener" debug="0"/>-->
+
 
 	<!-- Global JNDI resources -->
 	<GlobalNamingResources>
@@ -178,6 +180,7 @@
 			        prefix="catalina_log." suffix=".txt"
 			        timestamp="true"/>
 
+
 			<!-- Because this Realm is here, an instance will be shared globally -->
 
 			<!-- This Realm uses the UserDatabase configured in the global JNDI
@@ -258,6 +261,7 @@
 				<Logger className="org.apache.catalina.logger.FileLogger"
 				        directory="logs" prefix="localhost_log." suffix=".txt"
 				        timestamp="true"/>
+
 
 				<!-- Define properties for each web application.  This is only needed
 					 if you want to set non-default properties, or have web application

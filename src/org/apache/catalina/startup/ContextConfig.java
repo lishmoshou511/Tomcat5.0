@@ -123,8 +123,7 @@ import org.xml.sax.SAXParseException;
  * @version $Revision: 1.66 $ $Date: 2002/06/23 20:35:30 $
  */
 
-public final class ContextConfig
-		implements LifecycleListener {
+public final class ContextConfig implements LifecycleListener {
 
 
 	// ----------------------------------------------------- Instance Variables
@@ -256,8 +255,7 @@ public final class ContextConfig
 		// Process the application web.xml file
 		synchronized (webDigester) {
 			try {
-				URL url =
-						servletContext.getResource(Constants.ApplicationWebXml);
+				URL url = servletContext.getResource(Constants.ApplicationWebXml);
 
 				InputSource is = new InputSource(url.toExternalForm());
 				is.setByteStream(stream);

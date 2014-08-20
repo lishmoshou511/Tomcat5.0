@@ -565,11 +565,10 @@ public final class StandardService implements Lifecycle, Service {
 	 * Invoke a pre-startup initialization. This is used to allow connectors
 	 * to bind to restricted ports under Unix operating environments.
 	 */
-	public void initialize()
-			throws LifecycleException {
-		if (initialized)
-			throw new LifecycleException(
-					sm.getString("standardService.initialize.initialized"));
+	public void initialize() throws LifecycleException {
+		if (initialized){
+			throw new LifecycleException(sm.getString("standardService.initialize.initialized"));
+		}
 		initialized = true;
 
 		// Initialize our defined Connectors

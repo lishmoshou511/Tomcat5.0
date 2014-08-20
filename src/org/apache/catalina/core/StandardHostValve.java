@@ -160,8 +160,7 @@ final class StandardHostValve
 		}
 
 		// Bind the context CL to the current thread
-		Thread.currentThread().setContextClassLoader
-				(context.getLoader().getClassLoader());
+		Thread.currentThread().setContextClassLoader(context.getLoader().getClassLoader());
 
 		// Update the session last access time for our session (if any)
 		HttpServletRequest hreq = (HttpServletRequest) request.getRequest();

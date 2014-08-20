@@ -88,9 +88,7 @@ import org.apache.catalina.valves.ErrorDispatcherValve;
  * @version $Revision: 1.29 $ $Date: 2002/06/09 02:19:42 $
  */
 
-public class StandardHost
-		extends ContainerBase
-		implements Deployer, Host {
+public class StandardHost extends ContainerBase implements Deployer, Host {
 
 
 	// ----------------------------------------------------------- Constructors
@@ -181,8 +179,7 @@ public class StandardHost
 	/**
 	 * The Java class name of the default Mapper class for this Container.
 	 */
-	private String mapperClass =
-			"org.apache.catalina.core.StandardHostMapper";
+	private String mapperClass = "org.apache.catalina.core.StandardHostMapper";
 
 
 	/**
@@ -707,17 +704,13 @@ public class StandardHost
 	 *                            that prevents it from being started
 	 */
 	public synchronized void start() throws LifecycleException {
-		// Set error report valve
-		if ((errorReportValveClass != null)
-				&& (!errorReportValveClass.equals(""))) {
+		//添加汇报错误的阀门。可以自定义的。厉害！！！
+		if ((errorReportValveClass != null) && (!errorReportValveClass.equals(""))) {
 			try {
-				Valve valve = (Valve) Class.forName(errorReportValveClass)
-						.newInstance();
+				Valve valve = (Valve) Class.forName(errorReportValveClass).newInstance();
 				addValve(valve);
 			} catch (Throwable t) {
-				log(sm.getString
-						("standardHost.invalidErrorReportValveClass",
-								errorReportValveClass));
+				log(sm.getString("standardHost.invalidErrorReportValveClass",errorReportValveClass));
 			}
 		}
 

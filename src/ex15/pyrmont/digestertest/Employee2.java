@@ -2,13 +2,13 @@ package ex15.pyrmont.digestertest;
 
 import java.util.ArrayList;
 
-public class Employee {
+public class Employee2 {
 	private String firstName;
 	private String lastName;
 	private ArrayList offices = new ArrayList();
 
-	public Employee() {
-		System.out.println("Creating Employee");
+	public Employee2() {
+		System.out.println("我手动指定的类。");
 	}
 
 	public String getFirstName() {

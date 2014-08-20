@@ -1364,8 +1364,7 @@ public abstract class ContainerBase implements Container, Lifecycle, Pipeline {
 			mapper.setProtocol("http");
 			addMapper(mapper);
 		} catch (Exception e) {
-			log(sm.getString("containerBase.addDefaultMapper", mapperClass),
-					e);
+			log(sm.getString("containerBase.addDefaultMapper", mapperClass),e);
 		}
 
 	}

@@ -116,8 +116,7 @@ public interface Server {
 	 *
 	 * @param namingResources The new global naming resources
 	 */
-	public void setGlobalNamingResources
-	(NamingResources globalNamingResources);
+	public void setGlobalNamingResources (NamingResources globalNamingResources);
 
 
 	/**
@@ -194,6 +193,5 @@ public interface Server {
 	 *
 	 * @throws LifecycleException If this server was already initialized.
 	 */
-	public void initialize()
-			throws LifecycleException;
+	public void initialize() throws LifecycleException;
 }

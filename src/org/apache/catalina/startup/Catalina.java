@@ -279,68 +279,41 @@ public class Catalina {
 		digester.setValidating(false);
 
 		// Configure the actions we will be using
-		digester.addObjectCreate("Server",
-				"org.apache.catalina.core.StandardServer",
-				"className");
+		digester.addObjectCreate("Server", "org.apache.catalina.core.StandardServer", "className");
 		digester.addSetProperties("Server");
-		digester.addSetNext("Server",
-				"setServer",
-				"org.apache.catalina.Server");
+		//这里有addSetNext是因为this是根节点。
+		digester.addSetNext("Server", "setServer", "org.apache.catalina.Server");
 
-		digester.addObjectCreate("Server/GlobalNamingResources",
-				"org.apache.catalina.deploy.NamingResources");
+		digester.addObjectCreate("Server/GlobalNamingResources","org.apache.catalina.deploy.NamingResources");
 		digester.addSetProperties("Server/GlobalNamingResources");
-		digester.addSetNext("Server/GlobalNamingResources",
-				"setGlobalNamingResources",
-				"org.apache.catalina.deploy.NamingResources");
+		digester.addSetNext("Server/GlobalNamingResources","setGlobalNamingResources","org.apache.catalina.deploy.NamingResources");
 
-		digester.addObjectCreate("Server/Listener",
-				null, // MUST be specified in the element
-				"className");
+		// MUST be specified in the element
+		digester.addObjectCreate("Server/Listener",null,"className");
 		digester.addSetProperties("Server/Listener");
-		digester.addSetNext("Server/Listener",
-				"addLifecycleListener",
-				"org.apache.catalina.LifecycleListener");
+		digester.addSetNext("Server/Listener","addLifecycleListener","org.apache.catalina.LifecycleListener");
 
-		digester.addObjectCreate("Server/Service",
-				"org.apache.catalina.core.StandardService",
-				"className");
+		digester.addObjectCreate("Server/Service","org.apache.catalina.core.StandardService","className");
 		digester.addSetProperties("Server/Service");
-		digester.addSetNext("Server/Service",
-				"addService",
-				"org.apache.catalina.Service");
+		digester.addSetNext("Server/Service","addService","org.apache.catalina.Service");
 
-		digester.addObjectCreate("Server/Service/Listener",
-				null, // MUST be specified in the element
-				"className");
+		// MUST be specified in the element
+		digester.addObjectCreate("Server/Service/Listener", null, "className");
 		digester.addSetProperties("Server/Service/Listener");
-		digester.addSetNext("Server/Service/Listener",
-				"addLifecycleListener",
-				"org.apache.catalina.LifecycleListener");
+		digester.addSetNext("Server/Service/Listener","addLifecycleListener","org.apache.catalina.LifecycleListener");
 
-		digester.addObjectCreate("Server/Service/Connector",
-				"org.apache.catalina.connector.http.HttpConnector",
-				"className");
+		digester.addObjectCreate("Server/Service/Connector", "org.apache.catalina.connector.http.HttpConnector","className");
 		digester.addSetProperties("Server/Service/Connector");
-		digester.addSetNext("Server/Service/Connector",
-				"addConnector",
-				"org.apache.catalina.Connector");
+		digester.addSetNext("Server/Service/Connector", "addConnector", "org.apache.catalina.Connector");
 
-		digester.addObjectCreate("Server/Service/Connector/Factory",
-				"org.apache.catalina.net.DefaultServerSocketFactory",
-				"className");
+		digester.addObjectCreate("Server/Service/Connector/Factory","org.apache.catalina.net.DefaultServerSocketFactory","className");
 		digester.addSetProperties("Server/Service/Connector/Factory");
-		digester.addSetNext("Server/Service/Connector/Factory",
-				"setFactory",
-				"org.apache.catalina.net.ServerSocketFactory");
+		digester.addSetNext("Server/Service/Connector/Factory", "setFactory", "org.apache.catalina.net.ServerSocketFactory");
 
-		digester.addObjectCreate("Server/Service/Connector/Listener",
-				null, // MUST be specified in the element
-				"className");
+		// MUST be specified in the element
+		digester.addObjectCreate("Server/Service/Connector/Listener",null,"className");
 		digester.addSetProperties("Server/Service/Connector/Listener");
-		digester.addSetNext("Server/Service/Connector/Listener",
-				"addLifecycleListener",
-				"org.apache.catalina.LifecycleListener");
+		digester.addSetNext("Server/Service/Connector/Listener","addLifecycleListener","org.apache.catalina.LifecycleListener");
 
 		// Add RuleSets for nested elements
 		digester.addRuleSet(new NamingRuleSet("Server/GlobalNamingResources/"));
@@ -437,10 +410,10 @@ public class Catalina {
 		Digester digester = createStartDigester();
 		File file = configFile();
 		try {
-			InputSource is =
-					new InputSource("file://" + file.getAbsolutePath());
+			InputSource is = new InputSource("file://" + file.getAbsolutePath());
 			FileInputStream fis = new FileInputStream(file);
 			is.setByteStream(fis);
+			//把this当作是digester的根结点。厉害！！！
 			digester.push(this);
 			digester.parse(is);
 			fis.close();
@@ -456,8 +429,7 @@ public class Catalina {
 		} else {
 			System.setProperty("catalina.useNaming", "true");
 			String value = "org.apache.naming";
-			String oldValue =
-					System.getProperty(javax.naming.Context.URL_PKG_PREFIXES);
+			String oldValue = System.getProperty(javax.naming.Context.URL_PKG_PREFIXES);
 			if (oldValue != null) {
 				value = value + ":" + oldValue;
 			}
@@ -612,6 +584,9 @@ public class Catalina {
 	protected class CatalinaShutdownHook extends Thread {
 
 		public void run() {
+
+			System.out.println("进入到关闭钩子中来！！");
+
 
 			if (server != null) {
 				try {
