@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="498.0" y="341.0">org.apache.catalina.core.StandardWrapperValve</node>
+    <node x="174.0" y="341.0">org.apache.catalina.core.StandardHostValve</node>
+    <node x="0.0" y="99.0">org.apache.catalina.core.StandardPipeline</node>
+    <node x="381.8153846153847" y="0.0">org.apache.catalina.Container</node>
+    <node x="155.81538461538466" y="99.0">org.apache.catalina.Engine</node>
+    <node x="501.0653846153847" y="99.0">org.apache.catalina.Context</node>
+    <node x="291.0" y="262.0">org.apache.catalina.Valve</node>
+    <node x="228.4192307692308" y="0.0">org.apache.catalina.Lifecycle</node>
+    <node x="446.0653846153847" y="188.0">org.apache.catalina.core.StandardContext</node>
+    <node x="590.0653846153847" y="188.0">org.apache.catalina.core.StandardWrapper</node>
+    <node x="0.0" y="415.0">org.apache.catalina.ValveContext</node>
+    <node x="0.0" y="341.0">org.apache.catalina.core.StandardContextValve</node>
+    <node x="12.0" y="0.0">org.apache.catalina.Pipeline</node>
+    <node x="264.8153846153847" y="99.0">org.apache.catalina.core.ContainerBase</node>
+    <node x="396.8153846153847" y="99.0">org.apache.catalina.Host</node>
+    <node x="161.31538461538463" y="188.0">org.apache.catalina.core.StandardEngine</node>
+    <node x="645.0653846153847" y="99.0">org.apache.catalina.Wrapper</node>
+    <node x="330.0" y="341.0">org.apache.catalina.core.StandardEngineValve</node>
+    <node x="319.9192307692308" y="188.0">org.apache.catalina.core.StandardHost</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.catalina.core.StandardHostValve" target="org.apache.catalina.Valve">
+      <point x="0.0" y="-14.5" />
+      <point x="242.0" y="321.0" />
+      <point x="315.0" y="321.0" />
+      <point x="-8.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.catalina.core.StandardContext" target="org.apache.catalina.core.ContainerBase">
+      <point x="-31.0" y="-14.5" />
+      <point x="477.0653846153847" y="158.0" />
+      <point x="334.8153846153847" y="158.0" />
+      <point x="14.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.catalina.Host" target="org.apache.catalina.Container">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.catalina.core.ContainerBase" target="org.apache.catalina.Container">
+      <point x="37.333333333333314" y="-14.5" />
+      <point x="358.14871794871794" y="79.0" />
+      <point x="408.21538461538466" y="79.0" />
+      <point x="-17.600000000000023" y="14.5" />
+    </edge>
+    <edge source="org.apache.catalina.Wrapper" target="org.apache.catalina.Container">
+      <point x="0.0" y="-14.5" />
+      <point x="683.0653846153847" y="69.0" />
+      <point x="461.0153846153846" y="69.0" />
+      <point x="35.19999999999999" y="14.5" />
+    </edge>
+    <edge source="org.apache.catalina.core.StandardWrapper" target="org.apache.catalina.core.ContainerBase">
+      <point x="-31.0" y="-14.5" />
+      <point x="621.0653846153847" y="148.0" />
+      <point x="362.8153846153847" y="148.0" />
+      <point x="42.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.catalina.Context" target="org.apache.catalina.Container">
+      <point x="0.0" y="-14.5" />
+      <point x="539.0653846153847" y="79.0" />
+      <point x="443.4153846153847" y="79.0" />
+      <point x="17.600000000000023" y="14.5" />
+    </edge>
+    <edge source="org.apache.catalina.core.StandardContext" target="org.apache.catalina.Context">
+      <point x="31.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.catalina.core.StandardEngine" target="org.apache.catalina.core.ContainerBase">
+      <point x="29.50000000000003" y="-14.5" />
+      <point x="249.81538461538466" y="168.0" />
+      <point x="278.8153846153847" y="168.0" />
+      <point x="-42.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.catalina.core.StandardPipeline" target="org.apache.catalina.Lifecycle">
+      <point x="32.5" y="-14.5" />
+      <point x="97.5" y="59.0" />
+      <point x="250.4192307692308" y="59.0" />
+      <point x="-22.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.catalina.core.StandardWrapper" target="org.apache.catalina.Wrapper">
+      <point x="31.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.catalina.core.ContainerBase" target="org.apache.catalina.Pipeline">
+      <point x="-37.33333333333337" y="-14.5" />
+      <point x="283.4820512820513" y="49.0" />
+      <point x="73.5" y="49.0" />
+      <point x="20.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.catalina.core.StandardEngine" target="org.apache.catalina.Engine">
+      <point x="-29.49999999999997" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.catalina.core.StandardHost" target="org.apache.catalina.core.ContainerBase">
+      <point x="-26.5" y="-14.5" />
+      <point x="346.4192307692308" y="168.0" />
+      <point x="306.8153846153847" y="168.0" />
+      <point x="-14.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.catalina.core.StandardHost" target="org.apache.catalina.Host">
+      <point x="26.5" y="-14.5" />
+      <point x="399.4192307692308" y="168.0" />
+      <point x="425.8153846153847" y="168.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.catalina.Engine" target="org.apache.catalina.Container">
+      <point x="0.0" y="-14.5" />
+      <point x="190.81538461538466" y="69.0" />
+      <point x="390.61538461538464" y="69.0" />
+      <point x="-35.19999999999999" y="14.5" />
+    </edge>
+    <edge source="org.apache.catalina.core.StandardEngineValve" target="org.apache.catalina.Valve">
+      <point x="0.0" y="-14.5" />
+      <point x="404.0" y="321.0" />
+      <point x="331.0" y="321.0" />
+      <point x="8.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.catalina.core.ContainerBase" target="org.apache.catalina.Lifecycle">
+      <point x="0.0" y="-14.5" />
+      <point x="320.8153846153847" y="59.0" />
+      <point x="294.4192307692308" y="59.0" />
+      <point x="22.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.catalina.core.StandardContextValve" target="org.apache.catalina.Valve">
+      <point x="0.0" y="-14.5" />
+      <point x="77.0" y="311.0" />
+      <point x="299.0" y="311.0" />
+      <point x="-24.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.catalina.core.StandardWrapperValve" target="org.apache.catalina.Valve">
+      <point x="0.0" y="-14.5" />
+      <point x="575.0" y="311.0" />
+      <point x="347.0" y="311.0" />
+      <point x="24.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.catalina.core.StandardPipeline" target="org.apache.catalina.Pipeline">
+      <point x="-32.5" y="-14.5" />
+      <point x="-20.5" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.1254310344827587" x="362.3167368824205" y="162.15702795863652" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

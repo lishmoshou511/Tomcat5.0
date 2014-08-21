@@ -89,8 +89,7 @@ import org.apache.catalina.valves.ValveBase;
  * @version $Revision: 1.7 $ $Date: 2001/11/10 01:24:20 $
  */
 
-final class StandardEngineValve
-		extends ValveBase {
+final class StandardEngineValve extends ValveBase {
 
 
 	// ----------------------------------------------------- Instance Variables
@@ -99,8 +98,7 @@ final class StandardEngineValve
 	/**
 	 * The descriptive information related to this implementation.
 	 */
-	private static final String info =
-			"org.apache.catalina.core.StandardEngineValve/1.0";
+	private static final String info = "org.apache.catalina.core.StandardEngineValve/1.0";
 
 
 	/**
@@ -137,8 +135,7 @@ final class StandardEngineValve
 	 * @throws IOException      if an input/output error occurred
 	 * @throws ServletException if a servlet error occurred
 	 */
-	public void invoke(Request request, Response response,
-	                   ValveContext valveContext)
+	public void invoke(Request request, Response response,ValveContext valveContext)
 			throws IOException, ServletException {
 		// Validate the request and response object types
 		if (!(request.getRequest() instanceof HttpServletRequest) ||

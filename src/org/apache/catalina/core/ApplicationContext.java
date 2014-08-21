@@ -625,8 +625,7 @@ public class ApplicationContext
 	 * @throws MalformedURLException if the path is not given
 	 *                               in the correct form
 	 */
-	public URL getResource(String path)
-			throws MalformedURLException {
+	public URL getResource(String path) throws MalformedURLException {
 
 		DirContext resources = context.getResources();
 		if (resources != null) {

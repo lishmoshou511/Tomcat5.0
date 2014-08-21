@@ -245,8 +245,7 @@ public final class ContextConfig implements LifecycleListener {
 		InputStream stream = null;
 		ServletContext servletContext = context.getServletContext();
 		if (servletContext != null)
-			stream = servletContext.getResourceAsStream
-					(Constants.ApplicationWebXml);
+			stream = servletContext.getResourceAsStream(Constants.ApplicationWebXml);
 		if (stream == null) {
 			log(sm.getString("contextConfig.applicationMissing"));
 			return;
