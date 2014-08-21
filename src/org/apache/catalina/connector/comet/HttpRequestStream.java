@@ -6,7 +6,6 @@ import java.io.IOException;
 
 /**
  * @author <a href="mailto:remm@apache.org">Remy Maucherat</a>
- * @deprecated
  */
 public class HttpRequestStream extends RequestStream {
 

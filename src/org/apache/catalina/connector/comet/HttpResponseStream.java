@@ -76,7 +76,6 @@ import java.io.IOException;
  * set.
  *
  * @author <a href="mailto:remm@apache.org">Remy Maucherat</a>
- * @deprecated
  */
 public final class HttpResponseStream extends ResponseStream {
 

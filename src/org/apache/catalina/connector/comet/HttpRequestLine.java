@@ -6,7 +6,6 @@ package org.apache.catalina.connector.comet;
  *
  * @author Remy Maucherat
  * @version $Revision: 1.6 $ $Date: 2002/03/18 07:15:40 $
- * @deprecated
  */
 
 final class HttpRequestLine {

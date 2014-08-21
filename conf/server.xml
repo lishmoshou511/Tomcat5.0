@@ -136,10 +136,17 @@
 		-->
 
 		<!-- Define a non-SSL legacy HTTP/1.1 Test Connector on port 8083 -->
-		<Connector className="org.apache.catalina.connector.comet.HttpConnector"
-		           port="8080" minProcessors="5" maxProcessors="75"
+		<!--<Connector className="org.apache.catalina.connector.http.HttpConnector"-->
+		           <!--port="8080" minProcessors="5" maxProcessors="75"-->
+		           <!--enableLookups="true" redirectPort="8443"-->
+		           <!--acceptCount="10" debug="0"/>-->
+		<Connector className="org.apache.catalina.connector.comet.CometConnector"
+		           port="8080" minProcessors="4" maxProcessors="75"
 		           enableLookups="true" redirectPort="8443"
 		           acceptCount="10" debug="0"/>
+
+
+
 
 		<!-- Define a non-SSL HTTP/1.0 Test Connector on port 8084 -->
 		<!--

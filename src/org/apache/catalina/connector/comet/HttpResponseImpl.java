@@ -16,7 +16,6 @@ import java.util.ArrayList;
  * @author Craig R. McClanahan
  * @author <a href="mailto:remm@apache.org">Remy Maucherat</a>
  * @version $Revision: 1.13 $ $Date: 2002/03/18 07:15:40 $
- * @deprecated
  */
 
 final class HttpResponseImpl

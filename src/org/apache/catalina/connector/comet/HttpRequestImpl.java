@@ -20,7 +20,6 @@ import java.util.Enumeration;
  * @author Craig R. McClanahan
  * @author Remy Maucherat
  * @version $Revision: 1.13 $ $Date: 2002/03/18 07:15:40 $
- * @deprecated
  */
 
 final class HttpRequestImpl

@@ -11,7 +11,6 @@ import java.io.InputStream;
  * header processing.
  *
  * @author <a href="mailto:remm@apache.org">Remy Maucherat</a>
- * @deprecated
  */
 public class SocketInputStream extends InputStream {
 

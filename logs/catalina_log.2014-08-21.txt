@@ -141,3 +141,132 @@
 2014-08-21 16:27:31 HttpProcessor[8080][2] Starting background thread
 2014-08-21 16:27:31 HttpProcessor[8080][3] Starting background thread
 2014-08-21 16:27:31 HttpProcessor[8080][4] Starting background thread
+2014-08-21 16:35:44 HttpConnector Opening server socket on all host IP addresses
+2014-08-21 16:35:44 HttpConnector[8080] Starting background thread
+2014-08-21 16:35:44 HttpProcessor[8080][0] Starting background thread
+2014-08-21 16:35:44 HttpProcessor[8080][1] Starting background thread
+2014-08-21 16:35:44 HttpProcessor[8080][2] Starting background thread
+2014-08-21 16:35:44 HttpProcessor[8080][3] Starting background thread
+2014-08-21 16:35:44 HttpProcessor[8080][4] Starting background thread
+2014-08-21 17:12:05 HttpConnector Opening server socket on all host IP addresses
+2014-08-21 17:12:05 HttpConnector[8080] Starting background thread
+2014-08-21 17:12:05 HttpProcessor[8080][0] Starting background thread
+2014-08-21 17:12:05 HttpProcessor[8080][1] Starting background thread
+2014-08-21 17:12:05 HttpProcessor[8080][2] Starting background thread
+2014-08-21 17:12:05 HttpProcessor[8080][3] Starting background thread
+2014-08-21 17:12:05 HttpProcessor[8080][4] Starting background thread
+2014-08-21 17:30:27 HttpConnector Opening server socket on all host IP addresses
+2014-08-21 17:30:28 HttpConnector[8080] Starting background thread
+2014-08-21 17:30:28 HttpProcessor[8080][0] Starting background thread
+2014-08-21 17:30:28 HttpProcessor[8080][1] Starting background thread
+2014-08-21 17:30:28 HttpProcessor[8080][2] Starting background thread
+2014-08-21 17:30:28 HttpProcessor[8080][3] Starting background thread
+2014-08-21 17:30:28 HttpProcessor[8080][4] Starting background thread
+2014-08-21 18:43:35 HttpConnector Opening server socket on all host IP addresses
+2014-08-21 18:43:35 HttpConnector[8080] Starting background thread
+2014-08-21 18:43:35 HttpProcessor[8080][0] Starting background thread
+2014-08-21 18:43:35 HttpProcessor[8080][1] Starting background thread
+2014-08-21 18:43:35 HttpProcessor[8080][2] Starting background thread
+2014-08-21 18:43:35 HttpProcessor[8080][3] Starting background thread
+2014-08-21 18:43:35 HttpProcessor[8080][4] Starting background thread
+2014-08-21 19:09:04 HttpConnector Opening server socket on all host IP addresses
+2014-08-21 19:09:04 HttpConnector[8080] Starting background thread
+2014-08-21 19:09:04 HttpProcessor[8080][0] Starting background thread
+2014-08-21 19:09:04 HttpProcessor[8080][1] Starting background thread
+2014-08-21 19:09:04 HttpProcessor[8080][2] Starting background thread
+2014-08-21 19:09:04 HttpProcessor[8080][3] Starting background thread
+2014-08-21 19:09:04 HttpProcessor[8080][4] Starting background thread
+2014-08-21 19:09:43 HttpConnector Opening server socket on all host IP addresses
+2014-08-21 19:09:43 HttpConnector[8080] Starting background thread
+2014-08-21 19:09:43 HttpProcessor[8080][0] Starting background thread
+2014-08-21 19:09:43 HttpProcessor[8080][1] Starting background thread
+2014-08-21 19:09:43 HttpProcessor[8080][2] Starting background thread
+2014-08-21 19:09:43 HttpProcessor[8080][3] Starting background thread
+2014-08-21 19:09:43 HttpProcessor[8080][4] Starting background thread
+2014-08-21 19:50:18 CometConnector Opening server socket on all host IP addresses
+2014-08-21 19:50:18 CometConnector Starting background thread
+2014-08-21 19:50:18 HttpProcessor[8080][0] Starting background thread
+2014-08-21 19:50:18 HttpProcessor[8080][1] Starting background thread
+2014-08-21 19:50:18 HttpProcessor[8080][2] Starting background thread
+2014-08-21 19:50:18 HttpProcessor[8080][3] Starting background thread
+2014-08-21 19:50:18 HttpProcessor[8080][4] Starting background thread
+2014-08-21 19:50:27 CometConnector Opening server socket on all host IP addresses
+2014-08-21 19:50:27 CometConnector Starting background thread
+2014-08-21 19:50:27 HttpProcessor[8080][0] Starting background thread
+2014-08-21 19:50:27 HttpProcessor[8080][1] Starting background thread
+2014-08-21 19:50:27 HttpProcessor[8080][2] Starting background thread
+2014-08-21 19:50:27 HttpProcessor[8080][3] Starting background thread
+2014-08-21 19:50:27 HttpProcessor[8080][4] Starting background thread
+2014-08-21 19:50:50 HttpProcessor[8080][4] Stopping background thread
+2014-08-21 19:50:50 HttpProcessor[8080][3] Stopping background thread
+2014-08-21 19:50:50 HttpProcessor[8080][2] Stopping background thread
+2014-08-21 19:50:50 HttpProcessor[8080][1] Stopping background thread
+2014-08-21 19:50:50 HttpProcessor[8080][0] Stopping background thread
+2014-08-21 19:50:50 CometConnector[8080] Stopping background thread
+2014-08-21 19:51:20 CometConnector Opening server socket on all host IP addresses
+2014-08-21 19:51:20 CometConnector Starting background thread
+2014-08-21 19:51:20 HttpProcessor[8080][0] Starting background thread
+2014-08-21 19:51:20 HttpProcessor[8080][1] Starting background thread
+2014-08-21 19:51:20 HttpProcessor[8080][2] Starting background thread
+2014-08-21 19:51:20 HttpProcessor[8080][3] Starting background thread
+2014-08-21 19:51:20 HttpProcessor[8080][4] Starting background thread
+2014-08-21 19:51:25 HttpProcessor[8080][4] Stopping background thread
+2014-08-21 19:51:25 HttpProcessor[8080][3] Stopping background thread
+2014-08-21 19:51:25 HttpProcessor[8080][2] Stopping background thread
+2014-08-21 19:51:25 HttpProcessor[8080][1] Stopping background thread
+2014-08-21 19:51:25 HttpProcessor[8080][0] Stopping background thread
+2014-08-21 19:51:25 CometConnector[8080] Stopping background thread
+2014-08-21 20:38:01 CometConnector Opening server socket on all host IP addresses
+2014-08-21 20:38:01 CometConnector Starting background thread
+2014-08-21 20:38:01 HttpProcessor[8080][0] Starting background thread
+2014-08-21 20:38:01 HttpProcessor[8080][1] Starting background thread
+2014-08-21 20:38:01 HttpProcessor[8080][2] Starting background thread
+2014-08-21 20:38:01 HttpProcessor[8080][3] Starting background thread
+2014-08-21 20:38:01 HttpProcessor[8080][4] Starting background thread
+2014-08-21 21:05:00 CometConnector Opening server socket on all host IP addresses
+2014-08-21 21:05:00 CometConnector Starting background thread
+2014-08-21 21:05:00 HttpProcessor[8080][0] Starting background thread
+2014-08-21 21:05:00 HttpProcessor[8080][1] Starting background thread
+2014-08-21 21:05:00 HttpProcessor[8080][2] Starting background thread
+2014-08-21 21:05:00 HttpProcessor[8080][3] Starting background thread
+2014-08-21 21:05:00 HttpProcessor[8080][4] Starting background thread
+2014-08-21 21:33:35 CometConnector Opening server socket on all host IP addresses
+2014-08-21 21:33:35 CometConnector Starting background thread
+2014-08-21 21:33:35 CometProcessor[8080][0] Starting background thread
+2014-08-21 21:33:35 CometProcessor[8080][1] Starting background thread
+2014-08-21 21:33:35 CometProcessor[8080][2] Starting background thread
+2014-08-21 21:33:35 CometProcessor[8080][3] Starting background thread
+2014-08-21 21:33:35 CometProcessor[8080][4] Starting background thread
+2014-08-21 21:51:10 CometConnector Opening server socket on all host IP addresses
+2014-08-21 21:51:10 CometConnector Starting background thread
+2014-08-21 21:51:10 CometProcessor[8080][0] Starting background thread
+2014-08-21 21:51:10 CometProcessor[8080][1] Starting background thread
+2014-08-21 21:51:10 CometProcessor[8080][2] Starting background thread
+2014-08-21 21:51:10 CometProcessor[8080][3] Starting background thread
+2014-08-21 21:51:10 CometProcessor[8080][4] Starting background thread
+2014-08-21 21:55:06 CometConnector Opening server socket on all host IP addresses
+2014-08-21 21:55:06 CometConnector Starting background thread
+2014-08-21 21:55:06 CometProcessor[8080][0] Starting background thread
+2014-08-21 21:55:06 CometProcessor[8080][1] Starting background thread
+2014-08-21 21:55:06 CometProcessor[8080][2] Starting background thread
+2014-08-21 21:55:06 CometProcessor[8080][3] Starting background thread
+2014-08-21 21:55:06 CometProcessor[8080][4] Starting background thread
+2014-08-21 21:57:58 CometConnector Opening server socket on all host IP addresses
+2014-08-21 21:57:58 CometConnector Starting background thread
+2014-08-21 21:57:58 CometProcessor[8080][0] Starting background thread
+2014-08-21 21:57:58 CometProcessor[8080][1] Starting background thread
+2014-08-21 21:57:58 CometProcessor[8080][2] Starting background thread
+2014-08-21 21:57:58 CometProcessor[8080][3] Starting background thread
+2014-08-21 21:57:58 CometProcessor[8080][4] Starting background thread
+2014-08-21 22:00:33 CometConnector Opening server socket on all host IP addresses
+2014-08-21 22:00:33 CometConnector Starting background thread
+2014-08-21 22:00:33 CometProcessor[8080][0] Starting background thread
+2014-08-21 22:00:33 CometProcessor[8080][1] Starting background thread
+2014-08-21 22:00:56 CometProcessor[8080][2] Starting background thread
+2014-08-21 22:00:58 CometProcessor[8080][3] Starting background thread
+2014-08-21 22:16:27 CometConnector Opening server socket on all host IP addresses
+2014-08-21 22:16:27 CometConnector Starting background thread
+2014-08-21 22:16:27 CometProcessor[8080][0] Starting background thread
+2014-08-21 22:16:27 CometProcessor[8080][1] Starting background thread
+2014-08-21 22:16:27 CometProcessor[8080][2] Starting background thread
+2014-08-21 22:16:27 CometProcessor[8080][3] Starting background thread

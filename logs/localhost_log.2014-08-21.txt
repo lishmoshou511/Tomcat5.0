@@ -297,3 +297,273 @@ init
 2014-08-21 16:27:47 Using classLoader.loadClass
 ModernServlet -- init
 
+2014-08-21 16:35:44 HostConfig[localhost]: Deploying web application directory app1
+2014-08-21 16:35:44 StandardHost[localhost]: Installing web application at context path /app1 from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\app1
+2014-08-21 16:35:44 WebappLoader[/app1]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\app1
+2014-08-21 16:35:44 WebappLoader[/app1]: Deploy class files /WEB-INF/classes to D:\Source\IntelliJ\Tomcat5.0\webapps\app1\WEB-INF\classes
+2014-08-21 16:35:44 ContextConfig[/app1]: Missing default web.xml, using application web.xml only
+2014-08-21 16:35:44 StandardManager[/app1]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 16:35:44 StandardManager[/app1]: Seeding of random number generator has been completed
+2014-08-21 16:35:44 HostConfig[localhost]: Deploying web application directory docs
+2014-08-21 16:35:44 StandardHost[localhost]: Installing web application at context path /docs from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\docs
+2014-08-21 16:35:44 WebappLoader[/docs]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\docs
+2014-08-21 16:35:44 ContextConfig[/docs]: Missing default web.xml, using application web.xml only
+2014-08-21 16:35:44 StandardManager[/docs]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 16:35:44 StandardManager[/docs]: Seeding of random number generator has been completed
+2014-08-21 16:35:48 Using classLoader.loadClass
+ModernServlet -- init
+
+2014-08-21 17:12:05 HostConfig[localhost]: Deploying web application directory app1
+2014-08-21 17:12:05 StandardHost[localhost]: Installing web application at context path /app1 from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\app1
+2014-08-21 17:12:05 WebappLoader[/app1]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\app1
+2014-08-21 17:12:05 WebappLoader[/app1]: Deploy class files /WEB-INF/classes to D:\Source\IntelliJ\Tomcat5.0\webapps\app1\WEB-INF\classes
+2014-08-21 17:12:05 ContextConfig[/app1]: Missing default web.xml, using application web.xml only
+2014-08-21 17:12:05 StandardManager[/app1]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 17:12:05 StandardManager[/app1]: Seeding of random number generator has been completed
+2014-08-21 17:12:05 HostConfig[localhost]: Deploying web application directory docs
+2014-08-21 17:12:05 StandardHost[localhost]: Installing web application at context path /docs from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\docs
+2014-08-21 17:12:05 WebappLoader[/docs]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\docs
+2014-08-21 17:12:05 ContextConfig[/docs]: Missing default web.xml, using application web.xml only
+2014-08-21 17:12:05 StandardManager[/docs]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 17:12:05 StandardManager[/docs]: Seeding of random number generator has been completed
+2014-08-21 17:12:15 Using classLoader.loadClass
+ModernServlet -- init
+
+2014-08-21 17:30:27 HostConfig[localhost]: Deploying web application directory app1
+2014-08-21 17:30:27 StandardHost[localhost]: Installing web application at context path /app1 from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\app1
+2014-08-21 17:30:27 WebappLoader[/app1]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\app1
+2014-08-21 17:30:27 WebappLoader[/app1]: Deploy class files /WEB-INF/classes to D:\Source\IntelliJ\Tomcat5.0\webapps\app1\WEB-INF\classes
+2014-08-21 17:30:27 ContextConfig[/app1]: Missing default web.xml, using application web.xml only
+2014-08-21 17:30:27 StandardManager[/app1]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 17:30:28 StandardManager[/app1]: Seeding of random number generator has been completed
+2014-08-21 17:30:28 HostConfig[localhost]: Deploying web application directory docs
+2014-08-21 17:30:28 StandardHost[localhost]: Installing web application at context path /docs from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\docs
+2014-08-21 17:30:28 WebappLoader[/docs]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\docs
+2014-08-21 17:30:28 ContextConfig[/docs]: Missing default web.xml, using application web.xml only
+2014-08-21 17:30:28 StandardManager[/docs]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 17:30:28 StandardManager[/docs]: Seeding of random number generator has been completed
+2014-08-21 17:30:31 Using classLoader.loadClass
+ModernServlet -- init
+
+2014-08-21 17:37:29 StandardHost[localhost]: MAPPING configuration error for request URI /
+2014-08-21 18:32:15 StandardHost[localhost]: MAPPING configuration error for request URI /
+2014-08-21 18:43:35 HostConfig[localhost]: Deploying web application directory app1
+2014-08-21 18:43:35 StandardHost[localhost]: Installing web application at context path /app1 from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\app1
+2014-08-21 18:43:35 WebappLoader[/app1]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\app1
+2014-08-21 18:43:35 WebappLoader[/app1]: Deploy class files /WEB-INF/classes to D:\Source\IntelliJ\Tomcat5.0\webapps\app1\WEB-INF\classes
+2014-08-21 18:43:35 ContextConfig[/app1]: Missing default web.xml, using application web.xml only
+2014-08-21 18:43:35 StandardManager[/app1]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 18:43:35 StandardManager[/app1]: Seeding of random number generator has been completed
+2014-08-21 18:43:35 HostConfig[localhost]: Deploying web application directory docs
+2014-08-21 18:43:35 StandardHost[localhost]: Installing web application at context path /docs from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\docs
+2014-08-21 18:43:35 WebappLoader[/docs]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\docs
+2014-08-21 18:43:35 ContextConfig[/docs]: Missing default web.xml, using application web.xml only
+2014-08-21 18:43:35 StandardManager[/docs]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 18:43:35 StandardManager[/docs]: Seeding of random number generator has been completed
+2014-08-21 19:09:04 HostConfig[localhost]: Deploying web application directory app1
+2014-08-21 19:09:04 StandardHost[localhost]: Installing web application at context path /app1 from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\app1
+2014-08-21 19:09:04 WebappLoader[/app1]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\app1
+2014-08-21 19:09:04 WebappLoader[/app1]: Deploy class files /WEB-INF/classes to D:\Source\IntelliJ\Tomcat5.0\webapps\app1\WEB-INF\classes
+2014-08-21 19:09:04 ContextConfig[/app1]: Missing default web.xml, using application web.xml only
+2014-08-21 19:09:04 StandardManager[/app1]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 19:09:04 StandardManager[/app1]: Seeding of random number generator has been completed
+2014-08-21 19:09:04 HostConfig[localhost]: Deploying web application directory docs
+2014-08-21 19:09:04 StandardHost[localhost]: Installing web application at context path /docs from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\docs
+2014-08-21 19:09:04 WebappLoader[/docs]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\docs
+2014-08-21 19:09:04 ContextConfig[/docs]: Missing default web.xml, using application web.xml only
+2014-08-21 19:09:04 StandardManager[/docs]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 19:09:04 StandardManager[/docs]: Seeding of random number generator has been completed
+2014-08-21 19:09:43 HostConfig[localhost]: Deploying web application directory app1
+2014-08-21 19:09:43 StandardHost[localhost]: Installing web application at context path /app1 from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\app1
+2014-08-21 19:09:43 WebappLoader[/app1]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\app1
+2014-08-21 19:09:43 WebappLoader[/app1]: Deploy class files /WEB-INF/classes to D:\Source\IntelliJ\Tomcat5.0\webapps\app1\WEB-INF\classes
+2014-08-21 19:09:43 ContextConfig[/app1]: Missing default web.xml, using application web.xml only
+2014-08-21 19:09:43 StandardManager[/app1]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 19:09:43 StandardManager[/app1]: Seeding of random number generator has been completed
+2014-08-21 19:09:43 HostConfig[localhost]: Deploying web application directory docs
+2014-08-21 19:09:43 StandardHost[localhost]: Installing web application at context path /docs from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\docs
+2014-08-21 19:09:43 WebappLoader[/docs]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\docs
+2014-08-21 19:09:43 ContextConfig[/docs]: Missing default web.xml, using application web.xml only
+2014-08-21 19:09:43 StandardManager[/docs]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 19:09:43 StandardManager[/docs]: Seeding of random number generator has been completed
+2014-08-21 19:50:18 HostConfig[localhost]: Deploying web application directory app1
+2014-08-21 19:50:18 StandardHost[localhost]: Installing web application at context path /app1 from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\app1
+2014-08-21 19:50:18 WebappLoader[/app1]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\app1
+2014-08-21 19:50:18 WebappLoader[/app1]: Deploy class files /WEB-INF/classes to D:\Source\IntelliJ\Tomcat5.0\webapps\app1\WEB-INF\classes
+2014-08-21 19:50:18 ContextConfig[/app1]: Missing default web.xml, using application web.xml only
+2014-08-21 19:50:18 StandardManager[/app1]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 19:50:18 StandardManager[/app1]: Seeding of random number generator has been completed
+2014-08-21 19:50:18 HostConfig[localhost]: Deploying web application directory docs
+2014-08-21 19:50:18 StandardHost[localhost]: Installing web application at context path /docs from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\docs
+2014-08-21 19:50:18 WebappLoader[/docs]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\docs
+2014-08-21 19:50:18 ContextConfig[/docs]: Missing default web.xml, using application web.xml only
+2014-08-21 19:50:18 StandardManager[/docs]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 19:50:18 StandardManager[/docs]: Seeding of random number generator has been completed
+2014-08-21 19:50:27 HostConfig[localhost]: Deploying web application directory app1
+2014-08-21 19:50:27 StandardHost[localhost]: Installing web application at context path /app1 from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\app1
+2014-08-21 19:50:27 WebappLoader[/app1]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\app1
+2014-08-21 19:50:27 WebappLoader[/app1]: Deploy class files /WEB-INF/classes to D:\Source\IntelliJ\Tomcat5.0\webapps\app1\WEB-INF\classes
+2014-08-21 19:50:27 ContextConfig[/app1]: Missing default web.xml, using application web.xml only
+2014-08-21 19:50:27 StandardManager[/app1]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 19:50:27 StandardManager[/app1]: Seeding of random number generator has been completed
+2014-08-21 19:50:27 HostConfig[localhost]: Deploying web application directory docs
+2014-08-21 19:50:27 StandardHost[localhost]: Installing web application at context path /docs from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\docs
+2014-08-21 19:50:27 WebappLoader[/docs]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\docs
+2014-08-21 19:50:27 ContextConfig[/docs]: Missing default web.xml, using application web.xml only
+2014-08-21 19:50:27 StandardManager[/docs]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 19:50:27 StandardManager[/docs]: Seeding of random number generator has been completed
+2014-08-21 19:51:06 StandardHost[localhost]: Removing web application at context path /app1
+2014-08-21 19:51:06 StandardHost[localhost]: Removing web application at context path /docs
+2014-08-21 19:51:20 HostConfig[localhost]: Deploying web application directory app1
+2014-08-21 19:51:20 StandardHost[localhost]: Installing web application at context path /app1 from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\app1
+2014-08-21 19:51:20 WebappLoader[/app1]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\app1
+2014-08-21 19:51:20 WebappLoader[/app1]: Deploy class files /WEB-INF/classes to D:\Source\IntelliJ\Tomcat5.0\webapps\app1\WEB-INF\classes
+2014-08-21 19:51:20 ContextConfig[/app1]: Missing default web.xml, using application web.xml only
+2014-08-21 19:51:20 StandardManager[/app1]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 19:51:20 StandardManager[/app1]: Seeding of random number generator has been completed
+2014-08-21 19:51:20 HostConfig[localhost]: Deploying web application directory docs
+2014-08-21 19:51:20 StandardHost[localhost]: Installing web application at context path /docs from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\docs
+2014-08-21 19:51:20 WebappLoader[/docs]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\docs
+2014-08-21 19:51:20 ContextConfig[/docs]: Missing default web.xml, using application web.xml only
+2014-08-21 19:51:20 StandardManager[/docs]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 19:51:20 StandardManager[/docs]: Seeding of random number generator has been completed
+2014-08-21 19:51:30 StandardHost[localhost]: Removing web application at context path /app1
+2014-08-21 19:51:30 StandardHost[localhost]: Removing web application at context path /docs
+2014-08-21 20:38:01 HostConfig[localhost]: Deploying web application directory app1
+2014-08-21 20:38:01 StandardHost[localhost]: Installing web application at context path /app1 from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\app1
+2014-08-21 20:38:01 WebappLoader[/app1]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\app1
+2014-08-21 20:38:01 WebappLoader[/app1]: Deploy class files /WEB-INF/classes to D:\Source\IntelliJ\Tomcat5.0\webapps\app1\WEB-INF\classes
+2014-08-21 20:38:01 ContextConfig[/app1]: Missing default web.xml, using application web.xml only
+2014-08-21 20:38:01 StandardManager[/app1]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 20:38:01 StandardManager[/app1]: Seeding of random number generator has been completed
+2014-08-21 20:38:01 HostConfig[localhost]: Deploying web application directory docs
+2014-08-21 20:38:01 StandardHost[localhost]: Installing web application at context path /docs from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\docs
+2014-08-21 20:38:01 WebappLoader[/docs]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\docs
+2014-08-21 20:38:01 ContextConfig[/docs]: Missing default web.xml, using application web.xml only
+2014-08-21 20:38:01 StandardManager[/docs]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 20:38:01 StandardManager[/docs]: Seeding of random number generator has been completed
+2014-08-21 21:05:00 HostConfig[localhost]: Deploying web application directory app1
+2014-08-21 21:05:00 StandardHost[localhost]: Installing web application at context path /app1 from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\app1
+2014-08-21 21:05:00 WebappLoader[/app1]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\app1
+2014-08-21 21:05:00 WebappLoader[/app1]: Deploy class files /WEB-INF/classes to D:\Source\IntelliJ\Tomcat5.0\webapps\app1\WEB-INF\classes
+2014-08-21 21:05:00 ContextConfig[/app1]: Missing default web.xml, using application web.xml only
+2014-08-21 21:05:00 StandardManager[/app1]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 21:05:00 StandardManager[/app1]: Seeding of random number generator has been completed
+2014-08-21 21:05:00 HostConfig[localhost]: Deploying web application directory docs
+2014-08-21 21:05:00 StandardHost[localhost]: Installing web application at context path /docs from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\docs
+2014-08-21 21:05:00 WebappLoader[/docs]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\docs
+2014-08-21 21:05:00 ContextConfig[/docs]: Missing default web.xml, using application web.xml only
+2014-08-21 21:05:00 StandardManager[/docs]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 21:05:00 StandardManager[/docs]: Seeding of random number generator has been completed
+2014-08-21 21:05:08 Using classLoader.loadClass
+ModernServlet -- init
+
+2014-08-21 21:33:35 HostConfig[localhost]: Deploying web application directory app1
+2014-08-21 21:33:35 StandardHost[localhost]: Installing web application at context path /app1 from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\app1
+2014-08-21 21:33:35 WebappLoader[/app1]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\app1
+2014-08-21 21:33:35 WebappLoader[/app1]: Deploy class files /WEB-INF/classes to D:\Source\IntelliJ\Tomcat5.0\webapps\app1\WEB-INF\classes
+2014-08-21 21:33:35 ContextConfig[/app1]: Missing default web.xml, using application web.xml only
+2014-08-21 21:33:35 StandardManager[/app1]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 21:33:35 StandardManager[/app1]: Seeding of random number generator has been completed
+2014-08-21 21:33:35 HostConfig[localhost]: Deploying web application directory docs
+2014-08-21 21:33:35 StandardHost[localhost]: Installing web application at context path /docs from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\docs
+2014-08-21 21:33:35 WebappLoader[/docs]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\docs
+2014-08-21 21:33:35 ContextConfig[/docs]: Missing default web.xml, using application web.xml only
+2014-08-21 21:33:35 StandardManager[/docs]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 21:33:35 StandardManager[/docs]: Seeding of random number generator has been completed
+2014-08-21 21:33:46 Using classLoader.loadClass
+ModernServlet -- init
+
+2014-08-21 21:51:10 HostConfig[localhost]: Deploying web application directory app1
+2014-08-21 21:51:10 StandardHost[localhost]: Installing web application at context path /app1 from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\app1
+2014-08-21 21:51:10 WebappLoader[/app1]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\app1
+2014-08-21 21:51:10 WebappLoader[/app1]: Deploy class files /WEB-INF/classes to D:\Source\IntelliJ\Tomcat5.0\webapps\app1\WEB-INF\classes
+2014-08-21 21:51:10 ContextConfig[/app1]: Missing default web.xml, using application web.xml only
+2014-08-21 21:51:10 StandardManager[/app1]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 21:51:10 StandardManager[/app1]: Seeding of random number generator has been completed
+2014-08-21 21:51:10 HostConfig[localhost]: Deploying web application directory docs
+2014-08-21 21:51:10 StandardHost[localhost]: Installing web application at context path /docs from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\docs
+2014-08-21 21:51:10 WebappLoader[/docs]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\docs
+2014-08-21 21:51:10 ContextConfig[/docs]: Missing default web.xml, using application web.xml only
+2014-08-21 21:51:10 StandardManager[/docs]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 21:51:10 StandardManager[/docs]: Seeding of random number generator has been completed
+2014-08-21 21:51:34 Using classLoader.loadClass
+ModernServlet -- init
+
+2014-08-21 21:55:06 HostConfig[localhost]: Deploying web application directory app1
+2014-08-21 21:55:06 StandardHost[localhost]: Installing web application at context path /app1 from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\app1
+2014-08-21 21:55:06 WebappLoader[/app1]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\app1
+2014-08-21 21:55:06 WebappLoader[/app1]: Deploy class files /WEB-INF/classes to D:\Source\IntelliJ\Tomcat5.0\webapps\app1\WEB-INF\classes
+2014-08-21 21:55:06 ContextConfig[/app1]: Missing default web.xml, using application web.xml only
+2014-08-21 21:55:06 StandardManager[/app1]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 21:55:06 StandardManager[/app1]: Seeding of random number generator has been completed
+2014-08-21 21:55:06 HostConfig[localhost]: Deploying web application directory docs
+2014-08-21 21:55:06 StandardHost[localhost]: Installing web application at context path /docs from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\docs
+2014-08-21 21:55:06 WebappLoader[/docs]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\docs
+2014-08-21 21:55:06 ContextConfig[/docs]: Missing default web.xml, using application web.xml only
+2014-08-21 21:55:06 StandardManager[/docs]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 21:55:06 StandardManager[/docs]: Seeding of random number generator has been completed
+2014-08-21 21:55:26 Using classLoader.loadClass
+ModernServlet -- init
+
+2014-08-21 21:57:58 HostConfig[localhost]: Deploying web application directory app1
+2014-08-21 21:57:58 StandardHost[localhost]: Installing web application at context path /app1 from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\app1
+2014-08-21 21:57:58 WebappLoader[/app1]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\app1
+2014-08-21 21:57:58 WebappLoader[/app1]: Deploy class files /WEB-INF/classes to D:\Source\IntelliJ\Tomcat5.0\webapps\app1\WEB-INF\classes
+2014-08-21 21:57:58 ContextConfig[/app1]: Missing default web.xml, using application web.xml only
+2014-08-21 21:57:58 StandardManager[/app1]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 21:57:58 StandardManager[/app1]: Seeding of random number generator has been completed
+2014-08-21 21:57:58 HostConfig[localhost]: Deploying web application directory docs
+2014-08-21 21:57:58 StandardHost[localhost]: Installing web application at context path /docs from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\docs
+2014-08-21 21:57:58 WebappLoader[/docs]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\docs
+2014-08-21 21:57:58 ContextConfig[/docs]: Missing default web.xml, using application web.xml only
+2014-08-21 21:57:58 StandardManager[/docs]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 21:57:58 StandardManager[/docs]: Seeding of random number generator has been completed
+2014-08-21 21:58:12 Using classLoader.loadClass
+ModernServlet -- init
+
+2014-08-21 21:58:13 StandardHost[localhost]: MAPPING configuration error for request URI /favicon.ico
+2014-08-21 21:59:12 StandardHost[localhost]: MAPPING configuration error for request URI /favicon.ico
+2014-08-21 21:59:42 StandardHost[localhost]: MAPPING configuration error for request URI /favicon.ico
+2014-08-21 21:59:47 StandardHost[localhost]: MAPPING configuration error for request URI /favicon.ico
+2014-08-21 21:59:53 StandardHost[localhost]: MAPPING configuration error for request URI /favicon.ico
+2014-08-21 21:59:55 StandardHost[localhost]: MAPPING configuration error for request URI /favicon.ico
+2014-08-21 22:00:33 HostConfig[localhost]: Deploying web application directory app1
+2014-08-21 22:00:33 StandardHost[localhost]: Installing web application at context path /app1 from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\app1
+2014-08-21 22:00:33 WebappLoader[/app1]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\app1
+2014-08-21 22:00:33 WebappLoader[/app1]: Deploy class files /WEB-INF/classes to D:\Source\IntelliJ\Tomcat5.0\webapps\app1\WEB-INF\classes
+2014-08-21 22:00:33 ContextConfig[/app1]: Missing default web.xml, using application web.xml only
+2014-08-21 22:00:33 StandardManager[/app1]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 22:00:33 StandardManager[/app1]: Seeding of random number generator has been completed
+2014-08-21 22:00:33 HostConfig[localhost]: Deploying web application directory docs
+2014-08-21 22:00:33 StandardHost[localhost]: Installing web application at context path /docs from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\docs
+2014-08-21 22:00:33 WebappLoader[/docs]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\docs
+2014-08-21 22:00:33 ContextConfig[/docs]: Missing default web.xml, using application web.xml only
+2014-08-21 22:00:33 StandardManager[/docs]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 22:00:33 StandardManager[/docs]: Seeding of random number generator has been completed
+2014-08-21 22:00:39 Using classLoader.loadClass
+ModernServlet -- init
+
+2014-08-21 22:00:39 StandardHost[localhost]: MAPPING configuration error for request URI /favicon.ico
+2014-08-21 22:00:42 StandardHost[localhost]: MAPPING configuration error for request URI /favicon.ico
+2014-08-21 22:00:50 StandardHost[localhost]: MAPPING configuration error for request URI /favicon.ico
+2014-08-21 22:00:51 StandardHost[localhost]: MAPPING configuration error for request URI /favicon.ico
+2014-08-21 22:00:58 StandardHost[localhost]: MAPPING configuration error for request URI /favicon.ico
+2014-08-21 22:01:00 StandardHost[localhost]: MAPPING configuration error for request URI /favicon.ico
+2014-08-21 22:16:27 HostConfig[localhost]: Deploying web application directory app1
+2014-08-21 22:16:27 StandardHost[localhost]: Installing web application at context path /app1 from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\app1
+2014-08-21 22:16:27 WebappLoader[/app1]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\app1
+2014-08-21 22:16:27 WebappLoader[/app1]: Deploy class files /WEB-INF/classes to D:\Source\IntelliJ\Tomcat5.0\webapps\app1\WEB-INF\classes
+2014-08-21 22:16:27 ContextConfig[/app1]: Missing default web.xml, using application web.xml only
+2014-08-21 22:16:27 StandardManager[/app1]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 22:16:27 StandardManager[/app1]: Seeding of random number generator has been completed
+2014-08-21 22:16:27 HostConfig[localhost]: Deploying web application directory docs
+2014-08-21 22:16:27 StandardHost[localhost]: Installing web application at context path /docs from URL file:D:\Source\IntelliJ\Tomcat5.0\webapps\docs
+2014-08-21 22:16:27 WebappLoader[/docs]: Deploying class repositories to work directory D:\Source\IntelliJ\Tomcat5.0\work\Standalone\localhost\docs
+2014-08-21 22:16:27 ContextConfig[/docs]: Missing default web.xml, using application web.xml only
+2014-08-21 22:16:27 StandardManager[/docs]: Seeding random number generator class java.security.SecureRandom
+2014-08-21 22:16:27 StandardManager[/docs]: Seeding of random number generator has been completed
+2014-08-21 22:16:34 Using classLoader.loadClass
+ModernServlet -- init
+
+2014-08-21 22:16:34 StandardHost[localhost]: MAPPING configuration error for request URI /favicon.ico

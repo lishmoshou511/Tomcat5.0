@@ -17,96 +17,38 @@ import java.util.TreeMap;
 
 
 /**
- * Implementation of a request processor (and its associated thread) that may
- * be used by an HttpConnector to process individual requests.  The connector
- * will allocate a processor from its pool, assign a particular socket to it,
- * and the processor will then execute the processing required to complete
- * the request.  When the processor is completed, it will recycle itself.
+ * 全新的长连接CometProcessor，processor处理完事情后会自己回收。
  *
- * @author Craig R. McClanahan
- * @author Remy Maucherat
- * @version $Revision: 1.46 $ $Date: 2002/04/04 17:50:34 $
- * @deprecated
+ * @author lishuang
+ * @version 1.0  2014/08/21
  */
 
-final class HttpProcessor
-		implements Lifecycle, Runnable {
+final class CometProcessor implements Lifecycle, Runnable {
 
+	private static final String SERVER_INFO = ServerInfo.getServerInfo() + " (Comet/1.0 Connector)";
 
-	// ----------------------------------------------------- Manifest Constants
-
-
-	/**
-	 * Server information string for this server.
-	 */
-	private static final String SERVER_INFO =
-			ServerInfo.getServerInfo() + " (HTTP/1.1 Connector)";
-
-
-	// ----------------------------------------------------------- Constructors
-
-
-	/**
-	 * Construct a new HttpProcessor associated with the specified connector.
-	 *
-	 * @param connector HttpConnector that owns this processor
-	 * @param id        Identifier of this HttpProcessor (unique per connector)
-	 */
-	public HttpProcessor(HttpConnector connector, int id) {
-
-		super();
-		this.connector = connector;
-		this.debug = connector.getDebug();
-		this.id = id;
-		this.proxyName = connector.getProxyName();
-		this.proxyPort = connector.getProxyPort();
-		this.request = (HttpRequestImpl) connector.createRequest();
-		this.response = (HttpResponseImpl) connector.createResponse();
-		this.serverPort = connector.getPort();
-		this.threadName =
-				"HttpProcessor[" + connector.getPort() + "][" + id + "]";
-
-	}
 
 
 	// ----------------------------------------------------- Instance Variables
 
 
-	/**
-	 * Is there a new socket available?
-	 */
+	//是否有一个socket可用。
 	private boolean available = false;
 
+	private CometConnector connector = null;
 
-	/**
-	 * The HttpConnector with which this processor is associated.
-	 */
-	private HttpConnector connector = null;
-
-
-	/**
-	 * The debugging detail level for this component.
-	 */
 	private int debug = 0;
 
-
-	/**
-	 * The identifier of this processor, unique per connector.
-	 */
+	//id值，用于区分而已。
 	private int id = 0;
 
-
-	/**
-	 * The lifecycle event support for this component.
-	 */
 	private LifecycleSupport lifecycle = new LifecycleSupport(this);
 
 
 	/**
 	 * The match string for identifying a session ID parameter.
 	 */
-	private static final String match =
-			";" + Globals.SESSION_PARAMETER_NAME + "=";
+	private static final String match =";" + Globals.SESSION_PARAMETER_NAME + "=";
 
 
 	/**
@@ -133,15 +75,11 @@ final class HttpProcessor
 	private int proxyPort = 0;
 
 
-	/**
-	 * The HTTP request object we will pass to our associated container.
-	 */
+	//将要传递给Container的request.
 	private HttpRequestImpl request = null;
 
 
-	/**
-	 * The HTTP response object we will pass to our associated container.
-	 */
+	//将要传递给Container的response
 	private HttpResponseImpl response = null;
 
 
@@ -151,59 +89,26 @@ final class HttpProcessor
 	private int serverPort = 0;
 
 
-	/**
-	 * The string manager for this package.
-	 */
-	protected StringManager sm =
-			StringManager.getManager(Constants.Package);
+	//处理多语言的工具。
+	protected StringManager sm = StringManager.getManager(Constants.Package);
 
 
-	/**
-	 * The socket we are currently processing a request for.  This object
-	 * is used for inter-thread communication only.
-	 */
+	//灵魂人物！！！
 	private Socket socket = null;
 
-
-	/**
-	 * Has this component been started yet?
-	 */
+	//是否已经启动或者停止。
 	private boolean started = false;
-
-
-	/**
-	 * The shutdown signal to our background thread
-	 */
 	private boolean stopped = false;
 
-
-	/**
-	 * The background thread.
-	 */
+	//该类的线程。
 	private Thread thread = null;
-
-
-	/**
-	 * The name to register for the background thread.
-	 */
+	//线程名字
 	private String threadName = null;
-
-
-	/**
-	 * The thread synchronization object.
-	 */
-	private Object threadSync = new Object();
-
-
-	/**
-	 * Keep alive indicator.
-	 */
+	//线程锁
+	private final Object threadSync = new Object();
+	//Http中的keepAlive标识。
 	private boolean keepAlive = false;
-
-
-	/**
-	 * HTTP/1.1 client.
-	 */
+	//是否是http1.1协议
 	private boolean http11 = true;
 
 
@@ -219,21 +124,13 @@ final class HttpProcessor
 	/**
 	 * Ack string when pipelining HTTP requests.
 	 */
-	private static final byte[] ack =
-			(new String("HTTP/1.1 100 Continue\r\n\r\n")).getBytes();
+	private static final byte[] ack ="HTTP/1.1 100 Continue\r\n\r\n".getBytes();
 
 
 	/**
 	 * CRLF.
 	 */
-	private static final byte[] CRLF = (new String("\r\n")).getBytes();
-
-
-	/**
-	 * Line buffer.
-	 */
-	//private char[] lineBuffer = new char[4096];
-
+	private static final byte[] CRLF = "\r\n".getBytes();
 
 	/**
 	 * Request line buffer.
@@ -247,23 +144,30 @@ final class HttpProcessor
 	private int status = Constants.PROCESSOR_IDLE;
 
 
-	// --------------------------------------------------------- Public Methods
+	//用一个CometConnector来创建一个Processor
+	public CometProcessor(CometConnector connector, int id) {
 
+		this.connector = connector;
+		this.debug = connector.getDebug();
+		this.id = id;
+		this.proxyName = connector.getProxyName();
+		this.proxyPort = connector.getProxyPort();
+		this.request = (HttpRequestImpl) connector.createRequest();
+		this.response = (HttpResponseImpl) connector.createResponse();
+		this.serverPort = connector.getPort();
+		this.threadName = this.getClass().getSimpleName()+"[" + connector.getPort() + "][" + id + "]";
 
-	/**
-	 * Return a String value representing this object.
-	 */
+	}
+
 	public String toString() {
 
-		return (this.threadName);
+		return threadName;
 
 	}
 
 
-	// -------------------------------------------------------- Package Methods
-
-
 	/**
+	 * 灵魂方法！！！
 	 * Process an incoming TCP/IP connection on the specified socket.  Any
 	 * exception that occurs during processing must be logged and swallowed.
 	 * <b>NOTE</b>:  This method is called from our Connector's thread.  We
@@ -274,21 +178,20 @@ final class HttpProcessor
 	 */
 	synchronized void assign(Socket socket) {
 
-		// Wait for the Processor to get the previous Socket
+		// 如果当前尚且有一个socket没有被占用，那自己就先排队等会儿了。
 		while (available) {
 			try {
 				wait();
 			} catch (InterruptedException e) {
+				e.printStackTrace();
 			}
 		}
 
-		// Store the newly available Socket and notify our thread
+
 		this.socket = socket;
 		available = true;
-		notifyAll();
 
-		if ((debug >= 1) && (socket != null))
-			log(" An incoming request is being assigned");
+		notifyAll();
 
 	}
 
@@ -307,6 +210,7 @@ final class HttpProcessor
 			try {
 				wait();
 			} catch (InterruptedException e) {
+				e.printStackTrace();
 			}
 		}
 
@@ -315,10 +219,8 @@ final class HttpProcessor
 		available = false;
 		notifyAll();
 
-		if ((debug >= 1) && (socket != null))
-			log("  The incoming request has been awaited");
 
-		return (socket);
+		return socket;
 
 	}
 
@@ -474,9 +376,6 @@ final class HttpProcessor
 	private void parseConnection(Socket socket)
 			throws IOException, ServletException {
 
-		if (debug >= 2)
-			log("  parseConnection: address=" + socket.getInetAddress() +
-					", port=" + connector.getPort());
 		((HttpRequestImpl) request).setInet(socket.getInetAddress());
 		if (proxyPort != 0)
 			request.setServerPort(proxyPort);
@@ -509,7 +408,7 @@ final class HttpProcessor
 					return;
 				} else {
 					throw new ServletException
-							(sm.getString("httpProcessor.parseHeaders.colon"));
+							(sm.getString("cometProcessor.parseHeaders.colon"));
 				}
 			}
 
@@ -553,7 +452,7 @@ final class HttpProcessor
 				} catch (Exception e) {
 					throw new ServletException
 							(sm.getString
-									("httpProcessor.parseHeaders.contentLength"));
+									("cometProcessor.parseHeaders.contentLength"));
 				}
 				request.setContentLength(n);
 			} else if (header.equals(DefaultHeaders.CONTENT_TYPE_NAME)) {
@@ -585,7 +484,7 @@ final class HttpProcessor
 						} catch (Exception e) {
 							throw new ServletException
 									(sm.getString
-											("httpProcessor.parseHeaders.portNumber"));
+											("cometProcessor.parseHeaders.portNumber"));
 						}
 						request.setServerPort(port);
 					}
@@ -608,7 +507,7 @@ final class HttpProcessor
 				else
 					throw new ServletException
 							(sm.getString
-									("httpProcessor.parseHeaders.unknownExpectation"));
+									("cometProcessor.parseHeaders.unknownExpectation"));
 			} else if (header.equals(DefaultHeaders.TRANSFER_ENCODING_NAME)) {
 				//request.setTransferEncoding(header);
 			}
@@ -667,10 +566,10 @@ final class HttpProcessor
 		// Validate the incoming request line
 		if (method.length() < 1) {
 			throw new ServletException
-					(sm.getString("httpProcessor.parseRequest.method"));
+					(sm.getString("cometProcessor.parseRequest.method"));
 		} else if (requestLine.uriEnd < 1) {
 			throw new ServletException
-					(sm.getString("httpProcessor.parseRequest.uri"));
+					(sm.getString("cometProcessor.parseRequest.uri"));
 		}
 
 		// Parse any query parameters out of the request URI
@@ -852,11 +751,9 @@ final class HttpProcessor
 
 
 	/**
-	 * Process an incoming HTTP request on the Socket that has been assigned
-	 * to this Processor.  Any exceptions that occur during processing must be
-	 * swallowed and dealt with.
+	 * 处理socket，任何异常要么吞掉，要么处理掉。
 	 *
-	 * @param socket The socket on which we are connected to the client
+	 * @param socket 远道而来的socket
 	 */
 	private void process(Socket socket) {
 		boolean ok = true;
@@ -866,8 +763,7 @@ final class HttpProcessor
 
 		// Construct and initialize the objects we will need
 		try {
-			input = new SocketInputStream(socket.getInputStream(),
-					connector.getBufferSize());
+			input = new SocketInputStream(socket.getInputStream(),connector.getBufferSize());
 		} catch (Exception e) {
 			log("process.create", e);
 			ok = false;
@@ -885,8 +781,8 @@ final class HttpProcessor
 				output = socket.getOutputStream();
 				response.setStream(output);
 				response.setRequest(request);
-				((HttpServletResponse) response.getResponse()).setHeader
-						("Server", SERVER_INFO);
+				((HttpServletResponse) response.getResponse()).setHeader("Server", SERVER_INFO);
+
 			} catch (Exception e) {
 				log("process.create", e);
 				ok = false;
@@ -899,16 +795,17 @@ final class HttpProcessor
 
 					parseConnection(socket);
 					parseRequest(input, output);
-					if (!request.getRequest().getProtocol()
-							.startsWith("HTTP/0"))
+					if (!request.getRequest().getProtocol().startsWith("HTTP/0")){
 						parseHeaders(input);
+					}
 					if (http11) {
 						// Sending a request acknowledge back to the client if
 						// requested.
 						ackRequest(output);
 						// If the protocol is HTTP/1.1, chunking is allowed.
-						if (connector.isChunkingAllowed())
+						if (connector.isChunkingAllowed()){
 							response.setAllowChunking(true);
+						}
 					}
 
 				}
@@ -923,7 +820,7 @@ final class HttpProcessor
 					((HttpServletResponse) response.getResponse())
 							.sendError(HttpServletResponse.SC_BAD_REQUEST);
 				} catch (Exception f) {
-					;
+					e.printStackTrace();
 				}
 			} catch (InterruptedIOException e) {
 				if (debug > 1) {
@@ -932,7 +829,7 @@ final class HttpProcessor
 						((HttpServletResponse) response.getResponse())
 								.sendError(HttpServletResponse.SC_BAD_REQUEST);
 					} catch (Exception f) {
-						;
+						e.printStackTrace();
 					}
 				}
 				ok = false;
@@ -942,15 +839,14 @@ final class HttpProcessor
 					((HttpServletResponse) response.getResponse()).sendError
 							(HttpServletResponse.SC_BAD_REQUEST);
 				} catch (Exception f) {
-					;
+					e.printStackTrace();
 				}
 				ok = false;
 			}
 
 			// Ask our Container to process this request
 			try {
-				((HttpServletResponse) response).setHeader
-						("Date", FastHttpDateFormat.getCurrentDate());
+				((HttpServletResponse) response).setHeader("Date", FastHttpDateFormat.getCurrentDate());
 				if (ok) {
 
 					//这里把请求交给容器去处理了。
@@ -962,7 +858,7 @@ final class HttpProcessor
 					((HttpServletResponse) response.getResponse()).sendError
 							(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
 				} catch (Exception f) {
-					;
+					e.printStackTrace();
 				}
 				ok = false;
 			} catch (InterruptedIOException e) {
@@ -973,7 +869,7 @@ final class HttpProcessor
 					((HttpServletResponse) response.getResponse()).sendError
 							(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
 				} catch (Exception f) {
-					;
+					e.printStackTrace();
 				}
 				ok = false;
 			}
@@ -1024,7 +920,7 @@ final class HttpProcessor
 			shutdownInput(input);
 			socket.close();
 		} catch (IOException e) {
-			;
+			e.printStackTrace();
 		} catch (Throwable e) {
 			log("process.invoke", e);
 		}
@@ -1037,12 +933,13 @@ final class HttpProcessor
 	protected void shutdownInput(InputStream input) {
 		try {
 			int available = input.available();
-			// skip any unread (bogus) bytes
+			// 跳过所有没有读完的数据。
 			if (available > 0) {
-				input.skip(available);
+				long res = input.skip(available);
+				System.out.println("skip "+res);
 			}
 		} catch (Throwable e) {
-			;
+			e.printStackTrace();
 		}
 	}
 
@@ -1059,19 +956,16 @@ final class HttpProcessor
 		// Process requests until we receive a shutdown signal
 		while (!stopped) {
 
-			// Wait for the next socket to be assigned
+			// 等待分配过来的socket
 			Socket socket = await();
-			if (socket == null)
+			if (socket == null){
 				continue;
-
-			// Process the request from this socket
-			try {
-				process(socket);
-			} catch (Throwable t) {
-				log("process.invoke", t);
 			}
 
-			// Finish up this request
+			//开始处理这个socket请求。
+			process(socket);
+
+			//干完活了就回收自己。
 			connector.recycle(this);
 
 		}
@@ -1084,29 +978,20 @@ final class HttpProcessor
 	}
 
 
-	/**
-	 * Start the background processing thread.
-	 */
+	//启动线程
 	private void threadStart() {
 
-		log(sm.getString("httpProcessor.starting"));
-
+		log(sm.getString("cometProcessor.starting"));
 		thread = new Thread(this, threadName);
 		thread.setDaemon(true);
 		thread.start();
-
-		if (debug >= 1)
-			log(" Background thread has been started");
-
 	}
 
 
-	/**
-	 * Stop the background processing thread.
-	 */
+	//停止线程
 	private void threadStop() {
 
-		log(sm.getString("httpProcessor.stopping"));
+		log(sm.getString("cometProcessor.stopping"));
 
 		stopped = true;
 		assign(null);
@@ -1117,7 +1002,7 @@ final class HttpProcessor
 				try {
 					threadSync.wait(5000);
 				} catch (InterruptedException e) {
-					;
+					e.printStackTrace();
 				}
 			}
 		}
@@ -1126,78 +1011,38 @@ final class HttpProcessor
 	}
 
 
-	// ------------------------------------------------------ Lifecycle Methods
-
-
-	/**
-	 * Add a lifecycle event listener to this component.
-	 *
-	 * @param listener The listener to add
-	 */
+	/* ------------------------Lifecycle接口方法--------------------------------*/
 	public void addLifecycleListener(LifecycleListener listener) {
-
 		lifecycle.addLifecycleListener(listener);
-
 	}
-
-
-	/**
-	 * Get the lifecycle listeners associated with this lifecycle. If this
-	 * Lifecycle has no listeners registered, a zero-length array is returned.
-	 */
 	public LifecycleListener[] findLifecycleListeners() {
-
 		return lifecycle.findLifecycleListeners();
-
 	}
-
-
-	/**
-	 * Remove a lifecycle event listener from this component.
-	 *
-	 * @param listener The listener to add
-	 */
 	public void removeLifecycleListener(LifecycleListener listener) {
-
 		lifecycle.removeLifecycleListener(listener);
-
 	}
-
-
-	/**
-	 * Start the background thread we will use for request processing.
-	 *
-	 * @throws org.apache.catalina.LifecycleException if a fatal startup error occurs
-	 */
 	public void start() throws LifecycleException {
-
-		if (started)
-			throw new LifecycleException
-					(sm.getString("httpProcessor.alreadyStarted"));
+		if (started){
+			throw new LifecycleException(sm.getString("cometProcessor.alreadyStarted"));
+		}
 		lifecycle.fireLifecycleEvent(START_EVENT, null);
 		started = true;
 
 		threadStart();
 
 	}
-
-
-	/**
-	 * Stop the background thread we will use for request processing.
-	 *
-	 * @throws org.apache.catalina.LifecycleException if a fatal shutdown error occurs
-	 */
 	public void stop() throws LifecycleException {
 
-		if (!started)
-			throw new LifecycleException
-					(sm.getString("httpProcessor.notStarted"));
+		if (!started){
+			throw new LifecycleException(sm.getString("cometProcessor.notStarted"));
+		}
+
 		lifecycle.fireLifecycleEvent(STOP_EVENT, null);
 		started = false;
 
 		threadStop();
 
 	}
-
+	/* ------------------------Lifecycle接口方法--------end------------------------*/
 
 }
