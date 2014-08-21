@@ -14,8 +14,8 @@
 
 
 	<!-- Uncomment these entries to enable JMX MBeans support -->
-	<!--<Listener className="org.apache.catalina.mbeans.ServerLifecycleListener" debug="0"/>-->
-	<!--<Listener className="org.apache.catalina.mbeans.GlobalResourcesLifecycleListener" debug="0"/>-->
+	<Listener className="org.apache.catalina.mbeans.ServerLifecycleListener" debug="0"/>
+	<Listener className="org.apache.catalina.mbeans.GlobalResourcesLifecycleListener" debug="0"/>
 
 	<!--测试用的LifecycleListener-->
 	<!--<Listener className="org.apache.lish.LishLifecycleListener" debug="0"/>-->
@@ -136,7 +136,7 @@
 		-->
 
 		<!-- Define a non-SSL legacy HTTP/1.1 Test Connector on port 8083 -->
-		<Connector className="org.apache.catalina.connector.comet.HttpConnector"
+		<Connector className="org.apache.catalina.connector.http.HttpConnector"
 		           port="8080" minProcessors="5" maxProcessors="75"
 		           enableLookups="true" redirectPort="8443"
 		           acceptCount="10" debug="0"/>
