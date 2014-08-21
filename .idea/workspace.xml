@@ -2,157 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7af6703e-021a-4c78-860c-10ffda6787ba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/apache/Connector.uml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/apache/Container.uml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/images/fonts/OpenSans400.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/images/fonts/OpenSans400italic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/images/fonts/OpenSans600.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/images/fonts/OpenSans600italic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/images/fonts/OpenSans700.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/images/fonts/OpenSans700italic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/images/add.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/images/asf-feather.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/images/asf-logo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/images/code.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/images/cors-flowchart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/images/design.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/images/docs.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/images/fix.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/images/printer.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/architecture/requestProcess/requestProcess.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/appdev/sample/sample.war" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/architecture/startup/serverStartup.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/appdev/sample/web/images/tomcat.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/images/tomcat.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/images/tomcat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/images/update.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/images/void.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/BUILDING.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/appdev/sample/src/mypackage/Hello.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/appdev/sample/docs/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/RELEASE-NOTES.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/RUNNING.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/aio.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/ajp.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/apr.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/automatic-deployment.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/balancer-howto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/appdev/build.xml.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/appdev/sample/build.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/building.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/catalina_log.2014-08-20.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/catalina_log.2014-08-21.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/cgi-howto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/changelog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/class-loader-howto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/cluster-channel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/cluster-deployer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/cluster-howto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/cluster-interceptor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/cluster-listener.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/cluster-manager.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/cluster-membership.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/cluster-receiver.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/cluster-sender.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/cluster-valve.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/cluster.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/comments.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/connectors.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/context.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/default-servlet.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/deployer-howto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/appdev/deployment.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/developers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/tribes/developers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/images/docs-stylesheet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/engine.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/executor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/extras.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/tribes/faq.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/filter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/images/fonts/fonts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/funcspecs/fs-admin-apps.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/funcspecs/fs-admin-objects.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/funcspecs/fs-admin-opers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/funcspecs/fs-default.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/funcspecs/fs-jdbc-realm.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/funcspecs/fs-jndi-realm.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/funcspecs/fs-memory-realm.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/globalresources.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/appdev/sample/web/hello.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/host.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/html-manager-howto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/http.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/api/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/appdev/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/appdev/sample/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/appdev/sample/web/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/architecture/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/elapi/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/funcspecs/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/jspapi/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/servletapi/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/websocketapi/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/appdev/installation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/tribes/interceptors.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/introduction.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/appdev/introduction.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/tribes/introduction.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/jar-scan-filter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/jar-scanner.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/jasper-howto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/jdbc-pool.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/jndi-datasource-examples-howto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/jndi-resources-howto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/listeners.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/loader.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/localhost_log.2014-08-20.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/localhost_log.2014-08-21.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/logging.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/manager-howto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/manager.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/maven-jars.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/funcspecs/mbean-names.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/mbeans-descriptor-howto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/tribes/membership.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/monitoring.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/architecture/overview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/appdev/processes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/proxy-howto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/realm-howto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/realm.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/architecture/requestProcess.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/resources.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/rewrite.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/architecture/requestProcess/roseModel.mdl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/security-howto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/security-manager-howto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/server.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/architecture/startup/serverStartup.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/service.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/setup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/tribes/setup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/appdev/source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/ssi-howto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/ssl-howto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/architecture/startup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/tribes/status.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/systemprops.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/images/tomcat.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/tribes/transport.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/config/valve.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/virtual-hosting-howto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/web-socket-howto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/appdev/web.xml.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/appdev/sample/web/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/windows-auth-howto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapps/docs/windows-service-howto.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/apache/catalina/core/ApplicationContext.java" afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/ApplicationContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/apache/catalina/startup/ContextConfig.java" afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/ContextConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/apache/catalina/core/StandardEngineValve.java" afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/StandardEngineValve.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/apache/catalina/servlets/DefaultServlet.java" afterPath="$PROJECT_DIR$/src/org/apache/catalina/servlets/DefaultServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/apache/naming/resources/DirContextURLConnection.java" afterPath="$PROJECT_DIR$/src/org/apache/naming/resources/DirContextURLConnection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/apache/naming/NamingContextBindingsEnumeration.java" afterPath="$PROJECT_DIR$/src/org/apache/naming/NamingContextBindingsEnumeration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/apache/naming/NamingContextEnumeration.java" afterPath="$PROJECT_DIR$/src/org/apache/naming/NamingContextEnumeration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/apache/catalina/core/NamingContextListener.java" afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/NamingContextListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/apache/naming/resources/RecyclableNamingEnumeration.java" afterPath="$PROJECT_DIR$/src/org/apache/naming/resources/RecyclableNamingEnumeration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/apache/catalina/loader/WebappClassLoader.java" afterPath="$PROJECT_DIR$/src/org/apache/catalina/loader/WebappClassLoader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/apache/catalina/loader/WebappLoader.java" afterPath="$PROJECT_DIR$/src/org/apache/catalina/loader/WebappLoader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/apache/catalina/servlets/WebdavServlet.java" afterPath="$PROJECT_DIR$/src/org/apache/catalina/servlets/WebdavServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Tomcat5.0.iws" />
@@ -182,168 +41,130 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Container.uml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/apache/Container.uml">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement />
-              <nodes>
-                <node x="498.0" y="341.0">org.apache.catalina.core.StandardWrapperValve</node>
-                <node x="174.0" y="341.0">org.apache.catalina.core.StandardHostValve</node>
-                <node x="0.0" y="99.0">org.apache.catalina.core.StandardPipeline</node>
-                <node x="381.8153846153847" y="0.0">org.apache.catalina.Container</node>
-                <node x="155.81538461538466" y="99.0">org.apache.catalina.Engine</node>
-                <node x="161.31538461538463" y="188.0">org.apache.catalina.core.StandardEngine</node>
-                <node x="501.0653846153847" y="99.0">org.apache.catalina.Context</node>
-                <node x="291.0" y="262.0">org.apache.catalina.Valve</node>
-                <node x="228.4192307692308" y="0.0">org.apache.catalina.Lifecycle</node>
-                <node x="446.0653846153847" y="188.0">org.apache.catalina.core.StandardContext</node>
-                <node x="590.0653846153847" y="188.0">org.apache.catalina.core.StandardWrapper</node>
-                <node x="0.0" y="415.0">org.apache.catalina.ValveContext</node>
-                <node x="645.0653846153847" y="99.0">org.apache.catalina.Wrapper</node>
-                <node x="12.0" y="0.0">org.apache.catalina.Pipeline</node>
-                <node x="0.0" y="341.0">org.apache.catalina.core.StandardContextValve</node>
-                <node x="330.0" y="341.0">org.apache.catalina.core.StandardEngineValve</node>
-                <node x="319.9192307692308" y="188.0">org.apache.catalina.core.StandardHost</node>
-                <node x="264.8153846153847" y="99.0">org.apache.catalina.core.ContainerBase</node>
-                <node x="396.8153846153847" y="99.0">org.apache.catalina.Host</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="org.apache.catalina.core.StandardHostValve" target="org.apache.catalina.Valve">
-                  <point x="0.0" y="-14.5" />
-                  <point x="242.0" y="321.0" />
-                  <point x="315.0" y="321.0" />
-                  <point x="-8.0" y="14.5" />
-                </edge>
-                <edge source="org.apache.catalina.Context" target="org.apache.catalina.Container">
-                  <point x="0.0" y="-14.5" />
-                  <point x="539.0653846153847" y="79.0" />
-                  <point x="443.4153846153847" y="79.0" />
-                  <point x="17.600000000000023" y="14.5" />
-                </edge>
-                <edge source="org.apache.catalina.core.StandardContext" target="org.apache.catalina.core.ContainerBase">
-                  <point x="-31.0" y="-14.5" />
-                  <point x="477.0653846153847" y="158.0" />
-                  <point x="334.8153846153847" y="158.0" />
-                  <point x="14.0" y="14.5" />
-                </edge>
-                <edge source="org.apache.catalina.Host" target="org.apache.catalina.Container">
-                  <point x="0.0" y="-14.5" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-                <edge source="org.apache.catalina.core.StandardContext" target="org.apache.catalina.Context">
-                  <point x="31.0" y="-14.5" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-                <edge source="org.apache.catalina.core.StandardPipeline" target="org.apache.catalina.Lifecycle">
-                  <point x="32.5" y="-14.5" />
-                  <point x="97.5" y="59.0" />
-                  <point x="250.4192307692308" y="59.0" />
-                  <point x="-22.0" y="14.5" />
-                </edge>
-                <edge source="org.apache.catalina.core.StandardEngine" target="org.apache.catalina.core.ContainerBase">
-                  <point x="29.50000000000003" y="-14.5" />
-                  <point x="249.81538461538466" y="168.0" />
-                  <point x="278.8153846153847" y="168.0" />
-                  <point x="-42.0" y="14.5" />
-                </edge>
-                <edge source="org.apache.catalina.core.StandardWrapper" target="org.apache.catalina.Wrapper">
-                  <point x="31.0" y="-14.5" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-                <edge source="org.apache.catalina.core.ContainerBase" target="org.apache.catalina.Pipeline">
-                  <point x="-37.33333333333337" y="-14.5" />
-                  <point x="283.4820512820513" y="49.0" />
-                  <point x="73.5" y="49.0" />
-                  <point x="20.5" y="14.5" />
-                </edge>
-                <edge source="org.apache.catalina.core.ContainerBase" target="org.apache.catalina.Container">
-                  <point x="37.333333333333314" y="-14.5" />
-                  <point x="358.14871794871794" y="79.0" />
-                  <point x="408.21538461538466" y="79.0" />
-                  <point x="-17.600000000000023" y="14.5" />
-                </edge>
-                <edge source="org.apache.catalina.core.StandardEngine" target="org.apache.catalina.Engine">
-                  <point x="-29.49999999999997" y="-14.5" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-                <edge source="org.apache.catalina.Wrapper" target="org.apache.catalina.Container">
-                  <point x="0.0" y="-14.5" />
-                  <point x="683.0653846153847" y="69.0" />
-                  <point x="461.0153846153846" y="69.0" />
-                  <point x="35.19999999999999" y="14.5" />
-                </edge>
-                <edge source="org.apache.catalina.core.StandardHost" target="org.apache.catalina.core.ContainerBase">
-                  <point x="-26.5" y="-14.5" />
-                  <point x="346.4192307692308" y="168.0" />
-                  <point x="306.8153846153847" y="168.0" />
-                  <point x="-14.0" y="14.5" />
-                </edge>
-                <edge source="org.apache.catalina.core.StandardHost" target="org.apache.catalina.Host">
-                  <point x="26.5" y="-14.5" />
-                  <point x="399.4192307692308" y="168.0" />
-                  <point x="425.8153846153847" y="168.0" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-                <edge source="org.apache.catalina.Engine" target="org.apache.catalina.Container">
-                  <point x="0.0" y="-14.5" />
-                  <point x="190.81538461538466" y="69.0" />
-                  <point x="390.61538461538464" y="69.0" />
-                  <point x="-35.19999999999999" y="14.5" />
-                </edge>
-                <edge source="org.apache.catalina.core.StandardEngineValve" target="org.apache.catalina.Valve">
-                  <point x="0.0" y="-14.5" />
-                  <point x="404.0" y="321.0" />
-                  <point x="331.0" y="321.0" />
-                  <point x="8.0" y="14.5" />
-                </edge>
-                <edge source="org.apache.catalina.core.StandardContextValve" target="org.apache.catalina.Valve">
-                  <point x="0.0" y="-14.5" />
-                  <point x="77.0" y="311.0" />
-                  <point x="299.0" y="311.0" />
-                  <point x="-24.0" y="14.5" />
-                </edge>
-                <edge source="org.apache.catalina.core.ContainerBase" target="org.apache.catalina.Lifecycle">
-                  <point x="0.0" y="-14.5" />
-                  <point x="320.8153846153847" y="59.0" />
-                  <point x="294.4192307692308" y="59.0" />
-                  <point x="22.0" y="14.5" />
-                </edge>
-                <edge source="org.apache.catalina.core.StandardWrapper" target="org.apache.catalina.core.ContainerBase">
-                  <point x="-31.0" y="-14.5" />
-                  <point x="621.0653846153847" y="148.0" />
-                  <point x="362.8153846153847" y="148.0" />
-                  <point x="42.0" y="14.5" />
-                </edge>
-                <edge source="org.apache.catalina.core.StandardPipeline" target="org.apache.catalina.Pipeline">
-                  <point x="-32.5" y="-14.5" />
-                  <point x="-20.5" y="14.5" />
-                </edge>
-                <edge source="org.apache.catalina.core.StandardWrapperValve" target="org.apache.catalina.Valve">
-                  <point x="0.0" y="-14.5" />
-                  <point x="575.0" y="311.0" />
-                  <point x="347.0" y="311.0" />
-                  <point x="24.0" y="14.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.1254310344827587" x="362.3167368824205" y="142.58751436231327" />
-              <SelectedNodes>
-                <node>org.apache.catalina.core.StandardEngineValve</node>
-              </SelectedNodes>
-              <Categories />
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
+      <file leaf-file-name="HttpConnector.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpConnector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="6992" max-vertical-offset="30425">
+              <caret line="283" column="35" selection-start-line="283" selection-start-column="35" selection-end-line="283" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StandardEngineValve.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/core/StandardEngineValve.java">
+      <file leaf-file-name="WebappClassLoader.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/loader/WebappClassLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2058" max-vertical-offset="2700">
-              <caret line="160" column="12" selection-start-line="160" selection-start-column="12" selection-end-line="160" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="19059" max-vertical-offset="49225">
+              <caret line="834" column="53" selection-start-line="834" selection-start-column="53" selection-end-line="834" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebdavServlet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/servlets/WebdavServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="44709" max-vertical-offset="73675">
+              <caret line="1857" column="20" selection-start-line="1857" selection-start-column="20" selection-end-line="1857" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NamingContextEnumeration.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/apache/naming/NamingContextEnumeration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="691" max-vertical-offset="2125">
+              <caret line="91" column="53" selection-start-line="91" selection-start-column="53" selection-end-line="91" selection-end-column="53" />
+              <folding>
+                <element signature="e#3459#3460#0" expanded="true" />
+                <element signature="e#3492#3493#0" expanded="true" />
+                <element signature="e#3548#3549#0" expanded="true" />
+                <element signature="e#3573#3574#0" expanded="true" />
+                <element signature="e#4078#4079#0" expanded="true" />
+                <element signature="e#4115#4116#0" expanded="true" />
+                <element signature="e#4246#4247#0" expanded="true" />
+                <element signature="e#4283#4284#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NamingContextBindingsEnumeration.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/apache/naming/NamingContextBindingsEnumeration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="491" max-vertical-offset="2150">
+              <caret line="92" column="26" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
+              <folding>
+                <element signature="e#3477#3478#0" expanded="true" />
+                <element signature="e#3510#3511#0" expanded="true" />
+                <element signature="e#3574#3575#0" expanded="true" />
+                <element signature="e#3599#3600#0" expanded="true" />
+                <element signature="e#4104#4105#0" expanded="true" />
+                <element signature="e#4141#4142#0" expanded="true" />
+                <element signature="e#4272#4273#0" expanded="true" />
+                <element signature="e#4309#4310#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NamingContextListener.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/core/NamingContextListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="24016" max-vertical-offset="26125">
+              <caret line="1062" column="24" selection-start-line="1062" selection-start-column="24" selection-end-line="1062" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultServlet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/servlets/DefaultServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="33716" max-vertical-offset="55625">
+              <caret line="1451" column="60" selection-start-line="1451" selection-start-column="60" selection-end-line="1451" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebappLoader.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/loader/WebappLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.15971394" vertical-offset="26341" max-vertical-offset="32475">
+              <caret line="1155" column="45" selection-start-line="1155" selection-start-column="45" selection-end-line="1155" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecyclableNamingEnumeration.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/apache/naming/resources/RecyclableNamingEnumeration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2425">
+              <caret line="103" column="31" selection-start-line="103" selection-start-column="31" selection-end-line="103" selection-end-column="31" />
+              <folding>
+                <element signature="e#4052#4053#0" expanded="true" />
+                <element signature="e#4089#4090#0" expanded="true" />
+                <element signature="e#4220#4221#0" expanded="true" />
+                <element signature="e#4257#4258#0" expanded="true" />
+                <element signature="e#4290#4291#0" expanded="true" />
+                <element signature="e#4323#4324#0" expanded="true" />
+                <element signature="e#4445#4446#0" expanded="true" />
+                <element signature="e#4478#4479#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DirContextURLConnection.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/apache/naming/resources/DirContextURLConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="7336" max-vertical-offset="8175">
+              <caret line="391" column="61" selection-start-line="391" selection-start-column="61" selection-end-line="391" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -362,20 +183,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/org/apache/catalina/Wrapper.java" />
-        <option value="$PROJECT_DIR$/src/ex05/pyrmont/core/SimpleLoader.java" />
-        <option value="$PROJECT_DIR$/src/ex05/pyrmont/core/SimplePipeline.java" />
-        <option value="$PROJECT_DIR$/src/ex05/pyrmont/core/SimpleWrapper.java" />
-        <option value="$PROJECT_DIR$/src/ex05/pyrmont/core/SimpleWrapperValve.java" />
-        <option value="$PROJECT_DIR$/src/ex05/pyrmont/valves/ClientIPLoggerValve.java" />
-        <option value="$PROJECT_DIR$/src/ex05/pyrmont/valves/HeaderLoggerValve.java" />
-        <option value="$PROJECT_DIR$/src/ex05/pyrmont/startup/Bootstrap2.java" />
-        <option value="$PROJECT_DIR$/src/ex05/pyrmont/core/SimpleContextMapper.java" />
-        <option value="$PROJECT_DIR$/src/ex05/pyrmont/core/SimpleContext.java" />
         <option value="$PROJECT_DIR$/src/org/apache/catalina/util/LifecycleSupport.java" />
         <option value="$PROJECT_DIR$/src/ex06/pyrmont/core/SimpleContext.java" />
         <option value="$PROJECT_DIR$/src/ex06/pyrmont/core/SimpleContextValve.java" />
-        <option value="$PROJECT_DIR$/src/org/apache/catalina/loader/WebappLoader.java" />
         <option value="$PROJECT_DIR$/webroot/ModernServlet.java" />
         <option value="$PROJECT_DIR$/src/LishServlet.java" />
         <option value="$PROJECT_DIR$/src/ModernServlet.java" />
@@ -402,7 +212,6 @@
         <option value="$PROJECT_DIR$/src/org/apache/catalina/core/StandardServer.java" />
         <option value="$PROJECT_DIR$/src/org/apache/catalina/core/StandardEngine.java" />
         <option value="$PROJECT_DIR$/src/org/apache/catalina/core/StandardContext.java" />
-        <option value="$PROJECT_DIR$/webapps/docs/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/webapps/app1/index.html" />
         <option value="$PROJECT_DIR$/src/org/apache/catalina/core/StandardHostValve.java" />
         <option value="$PROJECT_DIR$/src/org/apache/lish/ErrorReportValve.java" />
@@ -413,14 +222,26 @@
         <option value="$PROJECT_DIR$/src/org/apache/catalina/startup/ContextConfig.java" />
         <option value="$PROJECT_DIR$/src/org/apache/catalina/core/ApplicationContext.java" />
         <option value="$PROJECT_DIR$/src/org/apache/catalina/core/StandardEngineValve.java" />
+        <option value="$PROJECT_DIR$/webapps/docs/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/org/apache/catalina/core/StandardContextValve.java" />
+        <option value="$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpProcessor.java" />
+        <option value="$PROJECT_DIR$/src/org/apache/catalina/loader/WebappClassLoader.java" />
+        <option value="$PROJECT_DIR$/src/org/apache/catalina/servlets/WebdavServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/apache/naming/NamingContextEnumeration.java" />
+        <option value="$PROJECT_DIR$/src/org/apache/naming/resources/RecyclableNamingEnumeration.java" />
+        <option value="$PROJECT_DIR$/src/org/apache/naming/resources/DirContextURLConnection.java" />
+        <option value="$PROJECT_DIR$/src/org/apache/naming/NamingContextBindingsEnumeration.java" />
+        <option value="$PROJECT_DIR$/src/org/apache/catalina/core/NamingContextListener.java" />
+        <option value="$PROJECT_DIR$/src/org/apache/catalina/servlets/DefaultServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/apache/catalina/loader/WebappLoader.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="143" />
-    <option name="y" value="26" />
+    <option name="x" value="115" />
+    <option name="y" value="1" />
     <option name="width" value="1813" />
-    <option name="height" value="938" />
+    <option name="height" value="1022" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -435,7 +256,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
+    <option name="STATE" value="2" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -450,6 +271,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -497,28 +319,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="docs" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tomcat5.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tomcat5.0" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapps" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="docs" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -652,7 +452,7 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="valves" />
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -678,77 +478,7 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="startup" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tomcat5.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tomcat5.0" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apache" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catalina" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tomcat5.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tomcat5.0" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pyrmont" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="startup" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tomcat5.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tomcat5.0" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pyrmont" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
+              <option name="myItemId" value="connector" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -784,20 +514,6 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="logs" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tomcat5.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tomcat5.0" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="etc" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -819,7 +535,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -832,7 +547,7 @@
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/org/apache" />
@@ -897,6 +612,16 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
+    <configuration default="true" type="BatchConfigurationType" factoryName="Batch">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
       <option name="BCName" value="" />
       <option name="launcherParameters">
@@ -909,35 +634,6 @@
       </option>
       <option name="moduleName" value="" />
       <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="BatchConfigurationType" factoryName="Batch">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -966,6 +662,25 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1004,26 +719,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
       <option name="BCName" value="" />
       <option name="IOSSimulatorSdkPath" value="" />
@@ -1057,6 +752,26 @@
       <option name="screenWidth" value="0" />
       <option name="url" value="http://" />
       <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="false" name="tomcat5.0-start" type="Application" factoryName="Application">
@@ -1137,7 +852,8 @@
       <workItem from="1408502666009" duration="25367000" />
       <workItem from="1408541988469" duration="50000" />
       <workItem from="1408542116853" duration="2571000" />
-      <workItem from="1408584858144" duration="2803000" />
+      <workItem from="1408584858144" duration="8902000" />
+      <workItem from="1408597995128" duration="257000" />
     </task>
     <task id="LOCAL-00001" summary="Reading the bootstrap class.">
       <created>1408455175435</created>
@@ -1147,15 +863,23 @@
       <created>1408545201463</created>
       <updated>1408545201463</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Keep going.">
+      <created>1408588237637</created>
+      <updated>1408588237637</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Ready to write my own codes now.">
+      <created>1408597976123</created>
+      <updated>1408597976124</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75864000" />
+    <option name="totallyTimeSpent" value="82220000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="143" y="26" width="1813" height="938" extended-state="0" />
-    <editor active="false" />
+    <frame x="115" y="1" width="1813" height="1022" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1165,20 +889,20 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3544776" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42905405" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938388" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3221393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32207206" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.191453" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2005698" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19715099" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32808718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1205,11 +929,16 @@
     </option>
     <MESSAGE value="Reading the bootstrap class." />
     <MESSAGE value="Reading here." />
-    <option name="LAST_COMMIT_MESSAGE" value="Reading here." />
+    <MESSAGE value="Keep going." />
+    <MESSAGE value="Ready to write my own codes now." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ready to write my own codes now." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="95" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="107" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1217,390 +946,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59821427" vertical-offset="2440" max-vertical-offset="3000">
-          <caret line="172" column="16" selection-start-line="172" selection-start-column="16" selection-end-line="172" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/startup/Bootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35227272" vertical-offset="864" max-vertical-offset="4550">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/startup/Catalina.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.4" vertical-offset="9940" max-vertical-offset="14250">
-          <caret line="480" column="0" selection-start-line="480" selection-start-column="0" selection-end-line="480" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_05/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="8682" max-vertical-offset="13325">
-          <caret line="381" column="29" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/session/StandardManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="18541" max-vertical-offset="19025">
-          <caret line="834" column="0" selection-start-line="834" selection-start-column="0" selection-end-line="834" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_05/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3181818" vertical-offset="16864" max-vertical-offset="48900">
-          <caret line="744" column="0" selection-start-line="744" selection-start-column="0" selection-end-line="745" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/deploy/NamingResources.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8102767" vertical-offset="3590" max-vertical-offset="16650">
-          <caret line="228" column="16" selection-start-line="228" selection-start-column="16" selection-end-line="228" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/Engine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3320158" vertical-offset="607" max-vertical-offset="2825">
-          <caret line="92" column="17" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/core/StandardServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51007" max-vertical-offset="52825">
-          <caret line="2165" column="0" selection-start-line="2165" selection-start-column="0" selection-end-line="2165" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/Connector.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="0.0" y="0.0">org.apache.catalina.Connector</node>
-            <node x="42.0" y="79.0">org.apache.catalina.connector.http.HttpConnector</node>
-            <node x="108.0" y="0.0">org.apache.catalina.Lifecycle</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="org.apache.catalina.connector.http.HttpConnector" target="org.apache.catalina.Lifecycle">
-              <point x="28.0" y="-14.5" />
-              <point x="126.0" y="54.0" />
-              <point x="152.0" y="54.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.apache.catalina.connector.http.HttpConnector" target="org.apache.catalina.Connector">
-              <point x="-28.0" y="-14.5" />
-              <point x="70.0" y="54.0" />
-              <point x="44.0" y="54.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-425.0" y="66.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="27964" max-vertical-offset="29775">
-          <caret line="1151" column="0" selection-start-line="1151" selection-start-column="0" selection-end-line="1151" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/core/StandardService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="10314" max-vertical-offset="12875">
-          <caret line="501" column="0" selection-start-line="501" selection-start-column="0" selection-end-line="501" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/Tomcat5.0.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="1518.0" y="188.0">org.apache.catalina.logger.FileLogger</node>
-            <node x="1254.655753968254" y="79.0">org.apache.catalina.Loader</node>
-            <node x="420.0" y="188.0">org.apache.catalina.core.StandardServer</node>
-            <node x="513.6329365079366" y="79.0">org.apache.catalina.Service</node>
-            <node x="1920.0" y="188.0">org.apache.catalina.Engine</node>
-            <node x="912.0" y="188.0">org.apache.catalina.connector.http.HttpConnector</node>
-            <node x="0.0" y="188.0">org.apache.catalina.loader.StandardClassLoader</node>
-            <node x="1422.0" y="188.0">org.apache.catalina.Context</node>
-            <node x="924.0" y="79.0">org.apache.catalina.Lifecycle</node>
-            <node x="558.0" y="188.0">org.apache.catalina.core.StandardService</node>
-            <node x="1221.7886904761906" y="277.0">org.apache.catalina.core.StandardContext</node>
-            <node x="264.0" y="188.0">org.apache.catalina.loader.WebappClassLoader</node>
-            <node x="175.0" y="277.0">org.apache.catalina.core.StandardWrapper</node>
-            <node x="0.0" y="430.0">org.apache.catalina.startup.Bootstrap</node>
-            <node x="1302.0" y="188.0">org.apache.catalina.realm.MemoryRealm</node>
-            <node x="1379.155753968254" y="79.0">org.apache.catalina.Realm</node>
-            <node x="1044.0" y="188.0">org.apache.catalina.core.ContainerBase</node>
-            <node x="834.0" y="188.0">org.apache.catalina.Host</node>
-            <node x="1632.0" y="188.0">org.apache.catalina.logger.SystemErrLogger</node>
-            <node x="702.0" y="188.0">org.apache.catalina.connector.http.HttpProcessor</node>
-            <node x="3.0" y="351.0">org.apache.catalina.startup.Catalina</node>
-            <node x="1866.5" y="277.0">org.apache.catalina.core.StandardEngine</node>
-            <node x="377.1329365079366" y="79.0">org.apache.catalina.Server</node>
-            <node x="141.7886904761906" y="79.0">org.apache.catalina.loader.Reloader</node>
-            <node x="1659.0" y="0.0">org.apache.catalina.Logger</node>
-            <node x="168.0" y="188.0">org.apache.catalina.Wrapper</node>
-            <node x="1647.0" y="79.0">org.apache.catalina.logger.LoggerBase</node>
-            <node x="1776.0" y="188.0">org.apache.catalina.logger.SystemOutLogger</node>
-            <node x="1176.0" y="188.0">org.apache.catalina.loader.WebappLoader</node>
-            <node x="918.2886904761906" y="277.0">org.apache.catalina.core.StandardHost</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="org.apache.catalina.core.StandardService" target="org.apache.catalina.Lifecycle">
-              <point x="31.0" y="-14.5" />
-              <point x="651.0" y="158.0" />
-              <point x="948.4444444444445" y="158.0" />
-              <point x="-19.555555555555543" y="14.5" />
-            </edge>
-            <edge source="org.apache.catalina.connector.http.HttpProcessor" target="org.apache.catalina.Lifecycle">
-              <point x="0.0" y="-14.5" />
-              <point x="758.0" y="168.0" />
-              <point x="958.2222222222222" y="168.0" />
-              <point x="-9.777777777777828" y="14.5" />
-            </edge>
-            <edge source="org.apache.catalina.core.StandardContext" target="org.apache.catalina.core.ContainerBase">
-              <point x="-31.0" y="-14.5" />
-              <point x="1252.7886904761906" y="257.0" />
-              <point x="1114.0" y="257.0" />
-              <point x="14.0" y="14.5" />
-            </edge>
-            <edge source="org.apache.catalina.realm.MemoryRealm" target="org.apache.catalina.Realm">
-              <point x="25.0" y="-14.5" />
-              <point x="1377.0" y="168.0" />
-              <point x="1411.155753968254" y="168.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.apache.catalina.realm.MemoryRealm" target="org.apache.catalina.Lifecycle">
-              <point x="-25.0" y="-14.5" />
-              <point x="1327.0" y="148.0" />
-              <point x="997.3333333333334" y="148.0" />
-              <point x="29.33333333333337" y="14.5" />
-            </edge>
-            <edge source="org.apache.catalina.core.StandardServer" target="org.apache.catalina.Lifecycle">
-              <point x="29.5" y="-14.5" />
-              <point x="508.5" y="148.0" />
-              <point x="938.6666666666666" y="148.0" />
-              <point x="-29.33333333333337" y="14.5" />
-            </edge>
-            <edge source="org.apache.catalina.core.StandardService" target="org.apache.catalina.Service">
-              <point x="-31.0" y="-14.5" />
-              <point x="589.0" y="128.0" />
-              <point x="551.6329365079366" y="128.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.apache.catalina.loader.WebappClassLoader" target="org.apache.catalina.loader.Reloader">
-              <point x="-34.0" y="-14.5" />
-              <point x="298.0" y="168.0" />
-              <point x="203.2886904761906" y="168.0" />
-              <point x="20.5" y="14.5" />
-            </edge>
-            <edge source="org.apache.catalina.logger.SystemOutLogger" target="org.apache.catalina.logger.LoggerBase">
-              <point x="0.0" y="-14.5" />
-              <point x="1838.0" y="168.0" />
-              <point x="1725.3333333333333" y="168.0" />
-              <point x="31.333333333333258" y="14.5" />
-            </edge>
-            <edge source="org.apache.catalina.core.StandardWrapper" target="org.apache.catalina.core.ContainerBase">
-              <point x="31.0" y="-14.5" />
-              <point x="268.0" y="247.0" />
-              <point x="1058.0" y="247.0" />
-              <point x="-42.0" y="14.5" />
-            </edge>
-            <edge source="org.apache.catalina.core.StandardServer" target="org.apache.catalina.Server">
-              <point x="-29.5" y="-14.5" />
-              <point x="449.5" y="128.0" />
-              <point x="412.1329365079366" y="128.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.apache.catalina.loader.StandardClassLoader" target="org.apache.catalina.loader.Reloader">
-              <point x="0.0" y="-14.5" />
-              <point x="74.0" y="168.0" />
-              <point x="162.2886904761906" y="168.0" />
-              <point x="-20.5" y="14.5" />
-            </edge>
-            <edge source="org.apache.catalina.startup.Bootstrap" target="org.apache.catalina.startup.Catalina">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.apache.catalina.core.StandardContext" target="org.apache.catalina.Context">
-              <point x="31.0" y="-14.5" />
-              <point x="1314.7886904761906" y="257.0" />
-              <point x="1460.0" y="257.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.apache.catalina.core.StandardEngine" target="org.apache.catalina.core.ContainerBase">
-              <point x="-29.5" y="-14.5" />
-              <point x="1896.0" y="247.0" />
-              <point x="1142.0" y="247.0" />
-              <point x="42.0" y="14.5" />
-            </edge>
-            <edge source="org.apache.catalina.loader.WebappClassLoader" target="org.apache.catalina.Lifecycle">
-              <point x="34.0" y="-14.5" />
-              <point x="366.0" y="138.0" />
-              <point x="928.8888888888889" y="138.0" />
-              <point x="-39.111111111111086" y="14.5" />
-            </edge>
-            <edge source="org.apache.catalina.logger.LoggerBase" target="org.apache.catalina.Logger">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.apache.catalina.core.StandardWrapper" target="org.apache.catalina.Wrapper">
-              <point x="-31.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.apache.catalina.logger.FileLogger" target="org.apache.catalina.Lifecycle">
-              <point x="-23.5" y="-14.5" />
-              <point x="1541.5" y="138.0" />
-              <point x="1007.1111111111111" y="138.0" />
-              <point x="39.111111111111086" y="14.5" />
-            </edge>
-            <edge source="org.apache.catalina.core.StandardEngine" target="org.apache.catalina.Engine">
-              <point x="29.5" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.apache.catalina.core.StandardHost" target="org.apache.catalina.core.ContainerBase">
-              <point x="26.5" y="-14.5" />
-              <point x="997.7886904761906" y="257.0" />
-              <point x="1086.0" y="257.0" />
-              <point x="-14.0" y="14.5" />
-            </edge>
-            <edge source="org.apache.catalina.loader.WebappLoader" target="org.apache.catalina.Lifecycle">
-              <point x="-26.5" y="-14.5" />
-              <point x="1202.5" y="158.0" />
-              <point x="987.5555555555555" y="158.0" />
-              <point x="19.555555555555543" y="14.5" />
-            </edge>
-            <edge source="org.apache.catalina.logger.SystemErrLogger" target="org.apache.catalina.logger.LoggerBase">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.apache.catalina.connector.http.HttpConnector" target="org.apache.catalina.Lifecycle">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.apache.catalina.core.StandardHost" target="org.apache.catalina.Host">
-              <point x="-26.5" y="-14.5" />
-              <point x="944.7886904761906" y="237.0" />
-              <point x="863.0" y="237.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.apache.catalina.logger.FileLogger" target="org.apache.catalina.logger.LoggerBase">
-              <point x="23.5" y="-14.5" />
-              <point x="1588.5" y="168.0" />
-              <point x="1662.6666666666667" y="168.0" />
-              <point x="-31.333333333333258" y="14.5" />
-            </edge>
-            <edge source="org.apache.catalina.core.ContainerBase" target="org.apache.catalina.Lifecycle">
-              <point x="0.0" y="-14.5" />
-              <point x="1100.0" y="168.0" />
-              <point x="977.7777777777778" y="168.0" />
-              <point x="9.777777777777828" y="14.5" />
-            </edge>
-            <edge source="org.apache.catalina.loader.WebappLoader" target="org.apache.catalina.Loader">
-              <point x="26.5" y="-14.5" />
-              <point x="1255.5" y="168.0" />
-              <point x="1289.655753968254" y="168.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.8875621890547263" x="-94.0" y="294.0" />
-          <SelectedNodes>
-            <node>org.apache.catalina.logger.FileLogger</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/session/StandardSessionFacade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33247423" vertical-offset="271" max-vertical-offset="2850">
-          <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/util/LifecycleSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2172" max-vertical-offset="3600">
-          <caret line="165" column="0" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapps/app1/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="950">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapps/docs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45054945" vertical-offset="2611" max-vertical-offset="5750">
-          <caret line="111" column="76" selection-start-line="111" selection-start-column="76" selection-end-line="111" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapps/docs/RUNNING.txt">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.428572" vertical-offset="11715" max-vertical-offset="12100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/startup/HostConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6546" max-vertical-offset="23475">
-          <caret line="355" column="46" selection-start-line="355" selection-start-column="46" selection-end-line="355" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/Host.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1038" max-vertical-offset="4175">
-          <caret line="108" column="22" selection-start-line="108" selection-start-column="22" selection-end-line="108" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ex15/pyrmont/digestertest/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2784091" vertical-offset="3" max-vertical-offset="1050">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ex15/pyrmont/digestertest/Test01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18939394" vertical-offset="0" max-vertical-offset="800">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/valves/ErrorReportValve.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="5100" max-vertical-offset="8300">
@@ -1665,7 +1010,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41314554" vertical-offset="1474" max-vertical-offset="1900">
           <caret line="127" column="21" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1706,19 +1050,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapps/docs/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/startup/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="496" max-vertical-offset="1275">
           <caret line="101" column="31" selection-start-line="101" selection-start-column="31" selection-end-line="101" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1726,7 +1061,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33289126" vertical-offset="149" max-vertical-offset="1775">
           <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1734,14 +1068,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33247754" vertical-offset="641" max-vertical-offset="10950">
           <caret line="103" column="11" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/core/StandardContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33247754" vertical-offset="22091" max-vertical-offset="96725">
-          <caret line="1015" column="16" selection-start-line="1015" selection-start-column="16" selection-end-line="1015" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1754,19 +1080,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/core/ApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="13091" max-vertical-offset="25900">
-          <caret line="636" column="17" selection-start-line="636" selection-start-column="17" selection-end-line="636" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ex13/pyrmont/core/SimpleContextConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19255456" vertical-offset="0" max-vertical-offset="779">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1774,7 +1091,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="1525">
           <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1782,7 +1098,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="1625">
           <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1806,14 +1121,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0162601" vertical-offset="0" max-vertical-offset="3475">
           <caret line="90" column="22" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/core/StandardEngineValve.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2058" max-vertical-offset="2700">
+        <state vertical-scroll-proportion="0.28993055" vertical-offset="2058" max-vertical-offset="2700">
           <caret line="160" column="12" selection-start-line="160" selection-start-column="12" selection-end-line="160" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/core/ApplicationDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2847222" vertical-offset="386" max-vertical-offset="22000">
+          <caret line="113" column="12" selection-start-line="113" selection-start-column="12" selection-end-line="113" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/core/ApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5798611" vertical-offset="13091" max-vertical-offset="25900">
+          <caret line="636" column="17" selection-start-line="636" selection-start-column="17" selection-end-line="636" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1837,11 +1167,11 @@
             <node x="590.0653846153847" y="188.0">org.apache.catalina.core.StandardWrapper</node>
             <node x="0.0" y="415.0">org.apache.catalina.ValveContext</node>
             <node x="645.0653846153847" y="99.0">org.apache.catalina.Wrapper</node>
-            <node x="12.0" y="0.0">org.apache.catalina.Pipeline</node>
             <node x="0.0" y="341.0">org.apache.catalina.core.StandardContextValve</node>
+            <node x="12.0" y="0.0">org.apache.catalina.Pipeline</node>
             <node x="330.0" y="341.0">org.apache.catalina.core.StandardEngineValve</node>
-            <node x="319.9192307692308" y="188.0">org.apache.catalina.core.StandardHost</node>
             <node x="264.8153846153847" y="99.0">org.apache.catalina.core.ContainerBase</node>
+            <node x="319.9192307692308" y="188.0">org.apache.catalina.core.StandardHost</node>
             <node x="396.8153846153847" y="99.0">org.apache.catalina.Host</node>
           </nodes>
           <notes />
@@ -1904,29 +1234,17 @@
               <point x="-29.49999999999997" y="-14.5" />
               <point x="0.0" y="14.5" />
             </edge>
-            <edge source="org.apache.catalina.Wrapper" target="org.apache.catalina.Container">
-              <point x="0.0" y="-14.5" />
-              <point x="683.0653846153847" y="69.0" />
-              <point x="461.0153846153846" y="69.0" />
-              <point x="35.19999999999999" y="14.5" />
-            </edge>
             <edge source="org.apache.catalina.core.StandardHost" target="org.apache.catalina.core.ContainerBase">
               <point x="-26.5" y="-14.5" />
               <point x="346.4192307692308" y="168.0" />
               <point x="306.8153846153847" y="168.0" />
               <point x="-14.0" y="14.5" />
             </edge>
-            <edge source="org.apache.catalina.core.StandardHost" target="org.apache.catalina.Host">
-              <point x="26.5" y="-14.5" />
-              <point x="399.4192307692308" y="168.0" />
-              <point x="425.8153846153847" y="168.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.apache.catalina.Engine" target="org.apache.catalina.Container">
+            <edge source="org.apache.catalina.Wrapper" target="org.apache.catalina.Container">
               <point x="0.0" y="-14.5" />
-              <point x="190.81538461538466" y="69.0" />
-              <point x="390.61538461538464" y="69.0" />
-              <point x="-35.19999999999999" y="14.5" />
+              <point x="683.0653846153847" y="69.0" />
+              <point x="461.0153846153846" y="69.0" />
+              <point x="35.19999999999999" y="14.5" />
             </edge>
             <edge source="org.apache.catalina.core.StandardEngineValve" target="org.apache.catalina.Valve">
               <point x="0.0" y="-14.5" />
@@ -1934,11 +1252,17 @@
               <point x="331.0" y="321.0" />
               <point x="8.0" y="14.5" />
             </edge>
-            <edge source="org.apache.catalina.core.StandardContextValve" target="org.apache.catalina.Valve">
+            <edge source="org.apache.catalina.Engine" target="org.apache.catalina.Container">
               <point x="0.0" y="-14.5" />
-              <point x="77.0" y="311.0" />
-              <point x="299.0" y="311.0" />
-              <point x="-24.0" y="14.5" />
+              <point x="190.81538461538466" y="69.0" />
+              <point x="390.61538461538464" y="69.0" />
+              <point x="-35.19999999999999" y="14.5" />
+            </edge>
+            <edge source="org.apache.catalina.core.StandardHost" target="org.apache.catalina.Host">
+              <point x="26.5" y="-14.5" />
+              <point x="399.4192307692308" y="168.0" />
+              <point x="425.8153846153847" y="168.0" />
+              <point x="0.0" y="14.5" />
             </edge>
             <edge source="org.apache.catalina.core.ContainerBase" target="org.apache.catalina.Lifecycle">
               <point x="0.0" y="-14.5" />
@@ -1946,15 +1270,17 @@
               <point x="294.4192307692308" y="59.0" />
               <point x="22.0" y="14.5" />
             </edge>
+            <edge source="org.apache.catalina.core.StandardContextValve" target="org.apache.catalina.Valve">
+              <point x="0.0" y="-14.5" />
+              <point x="77.0" y="311.0" />
+              <point x="299.0" y="311.0" />
+              <point x="-24.0" y="14.5" />
+            </edge>
             <edge source="org.apache.catalina.core.StandardWrapper" target="org.apache.catalina.core.ContainerBase">
               <point x="-31.0" y="-14.5" />
               <point x="621.0653846153847" y="148.0" />
               <point x="362.8153846153847" y="148.0" />
               <point x="42.0" y="14.5" />
-            </edge>
-            <edge source="org.apache.catalina.core.StandardPipeline" target="org.apache.catalina.Pipeline">
-              <point x="-32.5" y="-14.5" />
-              <point x="-20.5" y="14.5" />
             </edge>
             <edge source="org.apache.catalina.core.StandardWrapperValve" target="org.apache.catalina.Valve">
               <point x="0.0" y="-14.5" />
@@ -1962,14 +1288,228 @@
               <point x="347.0" y="311.0" />
               <point x="24.0" y="14.5" />
             </edge>
+            <edge source="org.apache.catalina.core.StandardPipeline" target="org.apache.catalina.Pipeline">
+              <point x="-32.5" y="-14.5" />
+              <point x="-20.5" y="14.5" />
+            </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.1254310344827587" x="362.3167368824205" y="142.58751436231327" />
+          <settings layout="Hierarchic Group" zoom="1.1254310344827587" x="-48.0" y="149.0" />
           <SelectedNodes>
             <node>org.apache.catalina.core.StandardEngineValve</node>
           </SelectedNodes>
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapps/docs/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.043402776" vertical-offset="0" max-vertical-offset="576">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_05/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="11695" max-vertical-offset="13375">
+          <caret line="501" column="0" selection-start-line="501" selection-start-column="0" selection-end-line="501" selection-end-column="0" />
+          <folding>
+            <element signature="e#23050#23051#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_05/src.zip!/java/net/AbstractPlainSocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="9120" max-vertical-offset="16875">
+          <caret line="403" column="0" selection-start-line="403" selection-start-column="0" selection-end-line="403" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_05/src.zip!/java/net/PlainSocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3295" max-vertical-offset="5750">
+          <caret line="198" column="0" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_05/src.zip!/java/net/ServerSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="12570" max-vertical-offset="22200">
+          <caret line="544" column="0" selection-start-line="544" selection-start-column="0" selection-end-line="544" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_05/src.zip!/java/net/DualStackPlainSocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="2395" max-vertical-offset="6950">
+          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpRequestImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="2845" max-vertical-offset="8725">
+          <caret line="127" column="16" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/core/StandardContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="55545" max-vertical-offset="96725">
+          <caret line="2349" column="0" selection-start-line="2349" selection-start-column="0" selection-end-line="2349" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/core/StandardContextValve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1460" max-vertical-offset="4225">
+          <caret line="147" column="17" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/connector/ResponseBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3321859" vertical-offset="3432" max-vertical-offset="20950">
+          <caret line="159" column="26" selection-start-line="159" selection-start-column="26" selection-end-line="159" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/connector/HttpResponseBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.7022376" vertical-offset="14957" max-vertical-offset="29175">
+          <caret line="518" column="19" selection-start-line="518" selection-start-column="19" selection-end-line="518" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpResponseImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4732" max-vertical-offset="6475">
+          <caret line="221" column="18" selection-start-line="221" selection-start-column="18" selection-end-line="221" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="24925" max-vertical-offset="30575">
+          <caret line="997" column="36" selection-start-line="997" selection-start-column="36" selection-end-line="997" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6992" max-vertical-offset="30425">
+          <caret line="283" column="35" selection-start-line="283" selection-start-column="35" selection-end-line="283" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/loader/WebappClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="19059" max-vertical-offset="49225">
+          <caret line="834" column="53" selection-start-line="834" selection-start-column="53" selection-end-line="834" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/servlets/WebdavServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="44709" max-vertical-offset="73675">
+          <caret line="1857" column="20" selection-start-line="1857" selection-start-column="20" selection-end-line="1857" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/naming/NamingContextEnumeration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="691" max-vertical-offset="2125">
+          <caret line="91" column="53" selection-start-line="91" selection-start-column="53" selection-end-line="91" selection-end-column="53" />
+          <folding>
+            <element signature="e#3459#3460#0" expanded="true" />
+            <element signature="e#3492#3493#0" expanded="true" />
+            <element signature="e#3548#3549#0" expanded="true" />
+            <element signature="e#3573#3574#0" expanded="true" />
+            <element signature="e#4078#4079#0" expanded="true" />
+            <element signature="e#4115#4116#0" expanded="true" />
+            <element signature="e#4246#4247#0" expanded="true" />
+            <element signature="e#4283#4284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/naming/resources/RecyclableNamingEnumeration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2425">
+          <caret line="103" column="31" selection-start-line="103" selection-start-column="31" selection-end-line="103" selection-end-column="31" />
+          <folding>
+            <element signature="e#4052#4053#0" expanded="true" />
+            <element signature="e#4089#4090#0" expanded="true" />
+            <element signature="e#4220#4221#0" expanded="true" />
+            <element signature="e#4257#4258#0" expanded="true" />
+            <element signature="e#4290#4291#0" expanded="true" />
+            <element signature="e#4323#4324#0" expanded="true" />
+            <element signature="e#4445#4446#0" expanded="true" />
+            <element signature="e#4478#4479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/naming/resources/DirContextURLConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="7336" max-vertical-offset="8175">
+          <caret line="391" column="61" selection-start-line="391" selection-start-column="61" selection-end-line="391" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/naming/NamingContextBindingsEnumeration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="491" max-vertical-offset="2150">
+          <caret line="92" column="26" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
+          <folding>
+            <element signature="e#3477#3478#0" expanded="true" />
+            <element signature="e#3510#3511#0" expanded="true" />
+            <element signature="e#3574#3575#0" expanded="true" />
+            <element signature="e#3599#3600#0" expanded="true" />
+            <element signature="e#4104#4105#0" expanded="true" />
+            <element signature="e#4141#4142#0" expanded="true" />
+            <element signature="e#4272#4273#0" expanded="true" />
+            <element signature="e#4309#4310#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/core/NamingContextListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="24016" max-vertical-offset="26125">
+          <caret line="1062" column="24" selection-start-line="1062" selection-start-column="24" selection-end-line="1062" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/servlets/DefaultServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="33716" max-vertical-offset="55625">
+          <caret line="1451" column="60" selection-start-line="1451" selection-start-column="60" selection-end-line="1451" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/loader/WebappLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15971394" vertical-offset="26341" max-vertical-offset="32475">
+          <caret line="1155" column="45" selection-start-line="1155" selection-start-column="45" selection-end-line="1155" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1990,7 +1530,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

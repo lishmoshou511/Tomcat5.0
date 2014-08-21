@@ -387,9 +387,9 @@ public class DirContextURLConnection
 
 		if (collection != null) {
 			try {
-				NamingEnumeration enum = context.list(getURL().getFile());
-				while (enum.hasMoreElements()) {
-					NameClassPair ncp = (NameClassPair) enum.nextElement();
+				NamingEnumeration enum1 = context.list(getURL().getFile());
+				while (enum1.hasMoreElements()) {
+					NameClassPair ncp = (NameClassPair) enum1.nextElement();
 					result.addElement(ncp.getName());
 				}
 			} catch (NamingException e) {
