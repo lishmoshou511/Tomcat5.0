@@ -144,9 +144,10 @@ final class StandardContextValve
 			throws IOException, ServletException {
 
 		// Validate the request and response object types
+		// NOTE - Not much else we can do generically
 		if (!(request.getRequest() instanceof HttpServletRequest) ||
 				!(response.getResponse() instanceof HttpServletResponse)) {
-			return;     // NOTE - Not much else we can do generically
+			return;
 		}
 
 		// Disallow any direct access to resources under WEB-INF or META-INF

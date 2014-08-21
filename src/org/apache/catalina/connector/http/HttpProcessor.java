@@ -966,6 +966,8 @@ final class HttpProcessor
 				((HttpServletResponse) response).setHeader
 						("Date", FastHttpDateFormat.getCurrentDate());
 				if (ok) {
+
+					//这里把请求交给容器去处理了。
 					connector.getContainer().invoke(request, response);
 				}
 			} catch (ServletException e) {
