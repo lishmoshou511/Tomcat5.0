@@ -761,6 +761,46 @@ final class CometProcessor implements Lifecycle, Runnable {
 		SocketInputStream input = null;
 		OutputStream output = null;
 
+
+		//测试代码
+		try {
+			InputStream inputStream=socket.getInputStream();
+			BufferedReader is = new BufferedReader(new InputStreamReader(inputStream));
+			//由Socket对象得到输入流，并构造相应的BufferedReader对象
+			PrintWriter os = new PrintWriter(socket.getOutputStream());
+			//由Socket对象得到输出流，并构造PrintWriter对象
+			//BufferedReader sin = new BufferedReader(new InputStreamReader(System.in));
+			//由系统标准输入设备构造BufferedReader对象
+			String line = null;
+			String res=null;
+			//在标准输出上打印从客户端读入的字符串
+			//line = sin.readLine();
+			//从标准输入读入一字符串
+			do {
+				line = is.readLine();
+				System.out.println("Client:" + line);
+
+
+				//如果该字符串为 "bye"，则停止循环
+				res = "<h1>Good</h1>";
+				os.println(res);
+				//向客户端输出该字符串
+				os.flush();
+
+				if (line.equals("")) break;
+
+			} while (true);
+			os.close(); //关闭Socket输出流
+			is.close(); //关闭Socket输入流
+			socket.close();
+
+		}catch (IOException e){
+			e.printStackTrace();
+		}
+
+
+
+		/*
 		// Construct and initialize the objects we will need
 		try {
 			input = new SocketInputStream(socket.getInputStream(),connector.getBufferSize());
@@ -925,6 +965,7 @@ final class CometProcessor implements Lifecycle, Runnable {
 			log("process.invoke", e);
 		}
 		socket = null;
+		*/
 
 
 	}
